@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muestra de Fotografía · FDA</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>📷</text></svg>">
+  <meta property="og:title" content="Muestra de Fotografía · FDA">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Muestra de fin de carrera — Proyectos fotográficos">
+</head>
+<body>
+
+  <!-- ============ TOP BAR ============ -->
+  <header id="topbar">
+    <div class="logo">
+      <a href="#home"><img src="assets/fda.jpg" alt="FDA"></a>
+    </div>
+    <button id="menuBtn" aria-label="Buscar fotógrafos">☰</button>
+  </header>
+
+  <!-- ============ HOME VIEW ============ -->
+  <main id="view-home" class="view active">
+    <div id="homeGrid" class="home-grid"></div>
+  </main>
+
+  <!-- ============ PROJECT VIEW ============ -->
+  <main id="view-project" class="view">
+    <div id="projectContent"></div>
+  </main>
+
+  <!-- ============ PHOTO VIEWER (overlay) ============ -->
+  <div id="photoViewer" class="photo-viewer">
+    <button class="pv-close" id="pvClose" aria-label="Cerrar">×</button>
+    <div class="pv-index" id="pvIndex"></div>
+    <div class="pv-image" id="pvImageContainer">
+      <img id="pvImg" src="" alt="">
+    </div>
+    <div class="pv-caption" id="pvCaption"></div>
+    <div class="pv-nav">
+      <button id="pvPrev" aria-label="Anterior">↑</button>
+      <button id="pvNext" aria-label="Siguiente">↓</button>
+    </div>
+  </div>
+
+  <!-- ============ SEARCH OVERLAY ============ -->
+  <div id="searchOverlay" class="search-overlay">
+    <div class="search-header">
+      <input type="text" id="searchInput" placeholder="Buscar fotógrafo…" autocomplete="off">
+    </div>
+    <div id="searchResults" class="search-results"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+{
+  "site": {
+    "title": "Muestra de Fotografía · FDA",
+    "logo": "assets/fda.jpg"
+  },
+  "photographers": [
+    {
+      "id": "carolina-mendez",
+      "name": "Carolina Méndez",
+      "projectName": "Umbrales",
+      "projectSlug": "umbrales",
+      "description": "<p>Umbrales es una exploración visual de los límites difusos entre el espacio público y privado en la ciudad de Buenos Aires. A través de ventanas, puertas entreabiertas y pasillos, la serie indaga en ese instante de transición donde el adentro y el afuera se confunden.</p><p>Las imágenes fueron realizadas durante 2024 en los barrios de Almagro, Boedo y San Cristóbal, utilizando una cámara de formato medio y luz natural.</p>",
+      "email": "carolina.mendez@ejemplo.com",
+      "instagram": "https://instagram.com/carolina.mendez",
+      "avatar": null,
+      "photos": [
+        { "file": "https://picsum.photos/seed/umb1/800/1000", "caption": "Ventana con persiana. Almagro, 2024." },
+        { "file": "https://picsum.photos/seed/umb2/1000/800", "caption": "Pasillo de luz. Boedo, 2024." },
+        { "file": "https://picsum.photos/seed/umb3/800/800", "caption": "Puerta entornada. San Cristóbal, 2024." },
+        { "file": "https://picsum.photos/seed/umb4/1000/1200", "caption": "Reflejo en vidrio. Almagro, 2024." },
+        { "file": "https://picsum.photos/seed/umb5/900/700", "caption": "Sombra en la entrada. Boedo, 2024." },
+        { "file": "https://picsum.photos/seed/umb6/800/1100", "caption": "Escalera al fondo. San Cristóbal, 2024." },
+        { "file": "https://picsum.photos/seed/umb7/1100/800", "caption": "Contraluz en el zaguán. Almagro, 2024." },
+        { "file": "https://picsum.photos/seed/umb8/800/900", "caption": "Muro descascarado. Boedo, 2024." }
+      ]
+    },
+    {
+      "id": "tomas-rivas",
+      "name": "Tomás Rivas",
+      "projectName": "Derivas",
+      "projectSlug": "derivas",
+      "description": "<p>Derivas registra el caminar sin rumbo como práctica estética. Durante tres meses recorrí la ciudad sin destino fijo, dejando que el azar guiara el encuadre. El resultado es un atlas personal de encuentros fortuitos: carteles rotos, veredas agrietadas, edificios en demolición.</p><p>El proyecto se inscribe en la tradición de la deriva situacionista, pero desplazada al contexto latinoamericano del conurbano bonaerense.</p>",
+      "email": "tomas.rivas@ejemplo.com",
+      "instagram": "https://instagram.com/tomas.rivas",
+      "avatar": null,
+      "photos": [
+        { "file": "https://picsum.photos/seed/der1/1000/800", "caption": "Cartel oxidado. Liniers, 2024." },
+        { "file": "https://picsum.photos/seed/der2/800/1000", "caption": "Vereda hendida. Flores, 2024." },
+        { "file": "https://picsum.photos/seed/der3/1200/800", "caption": "Demolición al atardecer. Parque Patricios, 2024." },
+        { "file": "https://picsum.photos/seed/der4/800/800", "caption": "Graffiti borrado. Villa Crespo, 2024." },
+        { "file": "https://picsum.photos/seed/der5/900/1000", "caption": "Poste inclinado. Chacarita, 2024." },
+        { "file": "https://picsum.photos/seed/der6/1000/700", "caption": "Sombra de un puente. La Boca, 2024." },
+        { "file": "https://picsum.photos/seed/der7/700/1000", "caption": "Agua estancada. Pompeya, 2024." }
+      ]
+    },
+    {
+      "id": "lucia-altamirano",
+      "name": "Lucía Altamirano",
+      "projectName": "El Peso de la Luz",
+      "projectSlug": "el-peso-de-la-luz",
+      "description": "<p>Una investigación sobre cómo la luz del sur modifica la percepción del espacio doméstico. Las fotografías fueron tomadas en una misma casa durante un año, registrando el recorrido del sol a través de las estaciones.</p><p>El proyecto juega con la materialidad de la luz: su densidad, su temperatura, su capacidad de tallar el espacio. Cada imagen es un registro preciso de un instante lumínico irrepetible.</p>",
+      "email": "lucia.altamirano@ejemplo.com",
+      "instagram": "https://instagram.com/lucia.altamirano",
+      "avatar": null,
+      "photos": [
+        { "file": "https://picsum.photos/seed/luz1/800/1000", "caption": "Luz de mañana en la cocina. Agosto, 2024." },
+        { "file": "https://picsum.photos/seed/luz2/1000/800", "caption": "Sol de invierno en el pasillo. Julio, 2024." },
+        { "file": "https://picsum.photos/seed/luz3/800/1200", "caption": "Penumbra del mediodía. Enero, 2025." },
+        { "file": "https://picsum.photos/seed/luz4/900/800", "caption": "Reflejo en el espejo. Marzo, 2025." },
+        { "file": "https://picsum.photos/seed/luz5/1000/900", "caption": "Luz oblicua en la sala. Otoño, 2025." },
+        { "file": "https://picsum.photos/seed/luz6/800/1000", "caption": "Sombra de la ventana. Noviembre, 2024." },
+        { "file": "https://picsum.photos/seed/luz7/1100/800", "caption": "Última luz del día. Junio, 2024." },
+        { "file": "https://picsum.photos/seed/luz8/800/900", "caption": "Claridad artificial. Noche, 2024." },
+        { "file": "https://picsum.photos/seed/luz9/1000/1000", "caption": "Luz de primavera. Septiembre, 2024." }
+      ]
+    },
+    {
+      "id": "franco-delgado",
+      "name": "Franco Delgado",
+      "projectName": "Cartografía del Olvido",
+      "projectSlug": "cartografia-del-olvido",
+      "description": "<p>Cartografía del Olvido documenta espacios abandonados del área metropolitana: fábricas clausuradas, estaciones de tren desactivadas, cines vacíos. Más que un registro arquitectónico, el proyecto busca capturar la atmósfera de estos lugares suspendidos en el tiempo.</p><p>Las fotografías fueron realizadas con película de gran formato y revelado analógico, buscando una textura que dialogue con la memoria de los espacios retratados.</p>",
+      "email": "franco.delgado@ejemplo.com",
+      "instagram": "https://instagram.com/franco.delgado",
+      "avatar": null,
+      "photos": [
+        { "file": "https://picsum.photos/seed/olv1/1000/800", "caption": "Nave industrial. Avellaneda, 2024." },
+        { "file": "https://picsum.photos/seed/olv2/800/1000", "caption": "Andén vacío. Estación Federico Lacroze, 2024." },
+        { "file": "https://picsum.photos/seed/olv3/1200/800", "caption": "Cine Gloria, sala principal. Flores, 2024." },
+        { "file": "https://picsum.photos/seed/olv4/800/1200", "caption": "Maquinaria oxidada. Fábrica Textil, Barracas, 2024." },
+        { "file": "https://picsum.photos/seed/olv5/900/900", "caption": "Butacas del cine. Flores, 2024." },
+        { "file": "https://picsum.photos/seed/olv6/1000/800", "caption": "Ventana rota. Avellaneda, 2024." },
+        { "file": "https://picsum.photos/seed/olv7/800/1000", "caption": "Tanque de agua. Barracas, 2024." },
+        { "file": "https://picsum.photos/seed/olv8/1100/800", "caption": "Cartel de neón apagado. Once, 2025." }
+      ]
+    },
+    {
+      "id": "valentina-paz",
+      "name": "Valentina Paz",
+      "projectName": "Habitar",
+      "projectSlug": "habitar",
+      "description": "<p>Habitar es un retrato del hogar como construcción afectiva. A partir de la mudanza a un departamento pequeño, comencé a fotografiar los objetos, rincones y rituales que convierten un espacio en un lugar propio.</p><p>La serie alterna planos detalle con vistas generales, buscando en lo doméstico una poética de lo mínimo. Cada fotografía es un fragmento de un mapa íntimo en construcción.</p>",
+      "email": "valentina.paz@ejemplo.com",
+      "instagram": "https://instagram.com/valentina.paz",
+      "avatar": null,
+      "photos": [
+        { "file": "https://picsum.photos/seed/hab1/800/1000", "caption": "Taza sobre la mesa. Mañana." },
+        { "file": "https://picsum.photos/seed/hab2/1000/800", "caption": "La cama sin hacer." },
+        { "file": "https://picsum.photos/seed/hab3/800/800", "caption": "Plantas en la ventana." },
+        { "file": "https://picsum.photos/seed/hab4/900/1100", "caption": "Ropa tendida. Atardecer." },
+        { "file": "https://picsum.photos/seed/hab5/1000/700", "caption": "Esquina del living." },
+        { "file": "https://picsum.photos/seed/hab6/800/1000", "caption": "Libros apilados en el piso." }
+      ]
+    },
+    {
+      "id": "mateo-linares",
+      "name": "Mateo Linares",
+      "projectName": "Superficies",
+      "projectSlug": "superficies",
+      "description": "<p>Superficies es un estudio de texturas urbanas: paredes, pavimentos, carteles, chapas. El proyecto elimina la profundidad de campo y la perspectiva para centrarse exclusivamente en la materialidad de la superficie fotografiada.</p><p>Inspirado en la fotografía de los años 20 y en la Nueva Objetividad, el trabajo busca que la mirada se detenga en lo que normalmente pasa desapercibido: la pátina del tiempo sobre los materiales de la ciudad.</p>",
+      "email": "mateo.linares@ejemplo.com",
+      "instagram": "https://instagram.com/mateo.linares",
+      "avatar": null,
+      "photos": [
+        { "file": "https://picsum.photos/seed/sup1/1000/1000", "caption": "Ladrillo visto. Palermo, 2024." },
+        { "file": "https://picsum.photos/seed/sup2/800/1000", "caption": "Óxido en chapa. La Boca, 2024." },
+        { "file": "https://picsum.photos/seed/sup3/1200/800", "caption": "Asfalto agrietado. Caballito, 2024." },
+        { "file": "https://picsum.photos/seed/sup4/800/1200", "caption": "Cartel descascarado. Balvanera, 2024." },
+        { "file": "https://picsum.photos/seed/sup5/900/900", "caption": "Mosaico roto. San Telmo, 2024." },
+        { "file": "https://picsum.photos/seed/sup6/1000/800", "caption": "Persiana metálica. Once, 2024." },
+        { "file": "https://picsum.photos/seed/sup7/800/800", "caption": "Hormigón texturado. Retiro, 2024." }
+      ]
+    },
+    {
+      "id": "sofia-quinteros",
+      "name": "Sofía Quinteros",
+      "projectName": "Lo que Queda",
+      "projectSlug": "lo-que-queda",
+      "description": "<p>Después de la muerte de mi abuela, pasé una semana vaciando su casa. Lo que Queda es el registro de ese proceso: objetos sin dueño, habitaciones que pierden su función, memorias que se dispersan.</p><p>El proyecto no busca ser un documento biográfico sino una reflexión sobre la materialidad del recuerdo. Las fotografías retratan lo que queda cuando alguien se va: no solo objetos, sino las huellas de una vida.</p>",
+      "email": "sofia.quinteros@ejemplo.com",
+      "instagram": "https://instagram.com/sofia.quinteros",
+      "avatar": null,
+      "photos": [
+        { "file": "https://picsum.photos/seed/queda1/800/1000", "caption": "El armario abierto." },
+        { "file": "https://picsum.photos/seed/queda2/1000/800", "caption": "Fotografías sobre la mesa." },
+        { "file": "https://picsum.photos/seed/queda3/800/1200", "caption": "La cama deshecha." },
+        { "file": "https://picsum.photos/seed/queda4/900/900", "caption": "Vajilla embalada." },
+        { "file": "https://picsum.photos/seed/queda5/1000/800", "caption": "Ropa doblada en sillas." },
+        { "file": "https://picsum.photos/seed/queda6/800/1000", "caption": "Una carta sin abrir." },
+        { "file": "https://picsum.photos/seed/queda7/1100/800", "caption": "La cocina vacía." },
+        { "file": "https://picsum.photos/seed/queda8/800/900", "caption": "Un zapato solo." },
+        { "file": "https://picsum.photos/seed/queda9/1000/1000", "caption": "La ventana abierta." }
+      ]
+    },
+    {
+      "id": "ignacio-paredes",
+      "name": "Ignacio Paredes",
+      "projectName": "Fronteras Domésticas",
+      "projectSlug": "fronteras-domesticas",
+      "description": "<p>Fronteras Domésticas explora los límites invisibles que organizan la vida en común: el borde entre la cocina y el comedor, la línea entre el living y el pasillo, el umbral de la pieza. A través de encuadres que enfatizan estos bordes, el proyecto indaga en cómo el espacio construye y reproduce relaciones de poder.</p><p>Las fotografías están tomadas en hogares de clase media del conurbano, y buscan hacer visible la arquitectura de lo cotidiano.</p>",
+      "email": "ignacio.paredes@ejemplo.com",
+      "instagram": "https://instagram.com/ignacio.paredes",
+      "avatar": null,
+      "photos": [
+        { "file": "https://picsum.photos/seed/fron1/1000/800", "caption": "Límite cocina-comedor. Morón, 2024." },
+        { "file": "https://picsum.photos/seed/fron2/800/1000", "caption": "Puerta cancel. San Justo, 2024." },
+        { "file": "https://picsum.photos/seed/fron3/1200/800", "caption": "Pasillo estrecho. Ramos Mejía, 2024." },
+        { "file": "https://picsum.photos/seed/fron4/800/1200", "caption": "Escalera y reja. La Matanza, 2024." },
+        { "file": "https://picsum.photos/seed/fron5/900/900", "caption": "Ventana con reja. Morón, 2024." },
+        { "file": "https://picsum.photos/seed/fron6/1000/700", "caption": "Dintel decorado. San Justo, 2024." }
+      ]
+    },
+    {
+      "id": "camila-ferreyra",
+      "name": "Camila Ferreyra",
+      "projectName": "Intervalos",
+      "projectSlug": "intervalos",
+      "description": "<p>Intervalos es una serie de dípticos que confrontan dos momentos del mismo espacio: antes y después de un evento, un desplazamiento o una ausencia. Cada par de imágenes está separado por un intervalo de tiempo variable —minutos, horas, días— y busca hacer visible el paso del tiempo en el espacio.</p><p>La serie se presenta siempre en parejas, invitando al espectador a completar el hiato entre ambas imágenes.</p>",
+      "email": "camila.ferreyra@ejemplo.com",
+      "instagram": "https://instagram.com/camila.ferreyra",
+      "avatar": null,
+      "photos": [
+        { "file": "https://picsum.photos/seed/int1/1000/800", "caption": "Plaza vacía / 7:00 AM." },
+        { "file": "https://picsum.photos/seed/int2/800/1000", "caption": "Misma plaza / 7:00 PM." },
+        { "file": "https://picsum.photos/seed/int3/900/900", "caption": "Mesa antes de cenar." },
+        { "file": "https://picsum.photos/seed/int4/1000/800", "caption": "Mesa después de cenar." },
+        { "file": "https://picsum.photos/seed/int5/800/1000", "caption": "Habitación al llegar." },
+        { "file": "https://picsum.photos/seed/int6/1200/800", "caption": "Habitación al irse." },
+        { "file": "https://picsum.photos/seed/int7/800/1200", "caption": "Andén con gente." },
+        { "file": "https://picsum.photos/seed/int8/1000/800", "caption": "Andén desierto." }
+      ]
+    },
+    {
+      "id": "agustin-torres",
+      "name": "Agustín Torres",
+      "projectName": "Ningún Lugar",
+      "projectSlug": "ningun-lugar",
+      "description": "<p>Ningún Lugar es una serie de paisajes que deliberadamente omiten cualquier referencia geográfica identificable. Sin nombres de calles, sin carteles, sin hitos reconocibles, las imágenes presentan un territorio genérico: cualquier ruta, cualquier descampado, cualquier periferia.</p><p>El proyecto se pregunta por la posibilidad de un paisaje anónimo en la era de la geolocalización total, y propone una mirada despojada de la necesidad de situar.</p>",
+      "email": "agustin.torres@ejemplo.com",
+      "instagram": "https://instagram.com/agustin.torres",
+      "avatar": null,
+      "photos": [
+        { "file": "https://picsum.photos/seed/ning1/1200/800", "caption": "Ruta. Mediodía." },
+        { "file": "https://picsum.photos/seed/ning2/800/1000", "caption": "Descampado. Atardecer." },
+        { "file": "https://picsum.photos/seed/ning3/1000/800", "caption": "Autopista. Noche." },
+        { "file": "https://picsum.photos/seed/ning4/800/1200", "caption": "Torre de alta tensión." },
+        { "file": "https://picsum.photos/seed/ning5/900/900", "caption": "Campo arado." },
+        { "file": "https://picsum.photos/seed/ning6/1000/700", "caption": "Niebla en la llanura." },
+        { "file": "https://picsum.photos/seed/ning7/800/1000", "caption": "Alambrado." }
+      ]
+    },
+    {
+      "id": "emilia-roldan",
+      "name": "Emilia Roldán",
+      "projectName": "Vestigios",
+      "projectSlug": "vestigios",
+      "description": "<p>Vestigios registra las marcas que la actividad humana deja en el paisaje natural de la costa atlántica bonaerense. Restos de construcciones, basura, fogones apagados, carteles deshechos: pequeñas huellas de un paso que no termina de irse.</p><p>Las fotografías fueron tomadas durante el invierno, cuando la marea baja revela lo que la temporada esconde. El proyecto es una reflexión sobre la temporalidad del paisaje y la persistencia de los desechos.</p>",
+      "email": "emilia.roldan@ejemplo.com",
+      "instagram": "https://instagram.com/emilia.roldan",
+      "avatar": null,
+      "photos": [
+        { "file": "https://picsum.photos/seed/vest1/1000/800", "caption": "Estructura de hormigón. Mar del Plata, 2024." },
+        { "file": "https://picsum.photos/seed/vest2/800/1000", "caption": "Botellas enterradas. Santa Teresita, 2024." },
+        { "file": "https://picsum.photos/seed/vest3/1200/800", "caption": "Fogón apagado. San Clemente, 2024." },
+        { "file": "https://picsum.photos/seed/vest4/800/1200", "caption": "Cartel de hotel, 1970. Villa Gesell, 2024." },
+        { "file": "https://picsum.photos/seed/vest5/900/900", "caption": "Red de pesca abandonada. Mar del Plata, 2024." },
+        { "file": "https://picsum.photos/seed/vest6/1000/800", "caption": "Muelle derrumbado. Miramar, 2024." },
+        { "file": "https://picsum.photos/seed/vest7/800/1000", "caption": "Ropa en la arena. Santa Teresita, 2024." },
+        { "file": "https://picsum.photos/seed/vest8/1100/800", "caption": "Graffiti en roca. Mar del Plata, 2024." }
+      ]
+    },
+    {
+      "id": "benjamin-herrera",
+      "name": "Benjamín Herrera",
+      "projectName": "La Distancia Exacta",
+      "projectSlug": "la-distancia-exacta",
+      "description": "<p>La Distancia Exacta es un estudio sobre la distancia física y emocional entre las personas en el espacio público. Durante un año fotografié parejas, familias y grupos en plazas, parques y veredas, buscando en la distancia entre los cuerpos una lectura de los vínculos.</p><p>Cada imagen está tomada a una distancia precisa del sujeto, y esa distancia —nunca arbitraria— es parte del contenido de la fotografía. El proyecto incluye un diagrama de cada toma que registra la distancia real entre fotógrafo y fotografiado.</p>",
+      "email": "benjamin.herrera@ejemplo.com",
+      "instagram": "https://instagram.com/benjamin.herrera",
+      "avatar": null,
+      "photos": [
+        { "file": "https://picsum.photos/seed/dist1/800/1000", "caption": "Pareja en banco. 3,2 m. Palermo, 2024." },
+        { "file": "https://picsum.photos/seed/dist2/1000/800", "caption": "Familia en el pasto. 5 m. Parque Chacabuco, 2024." },
+        { "file": "https://picsum.photos/seed/dist3/800/800", "caption": "Amigos en la vereda. 2,5 m. Almagro, 2024." },
+        { "file": "https://picsum.photos/seed/dist4/900/1100", "caption": "Mujer sola. 4 m. Recoleta, 2024." },
+        { "file": "https://picsum.photos/seed/dist5/1000/700", "caption": "Niños en el arenero. 6 m. Saavedra, 2024." },
+        { "file": "https://picsum.photos/seed/dist6/800/1000", "caption": "Ancianos en la plaza. 3,8 m. Belgrano, 2024." },
+        { "file": "https://picsum.photos/seed/dist7/1100/800", "caption": "Paseador de perros. 7 m. Caballito, 2025." },
+        { "file": "https://picsum.photos/seed/dist8/800/900", "caption": "Conversación en la esquina. 1,5 m. Villa Crespo, 2025." },
+        { "file": "https://picsum.photos/seed/dist9/1000/800", "caption": "Grupo en la salida del subte. 4,5 m. Once, 2025." }
+      ]
+    }
+  ]
+}
