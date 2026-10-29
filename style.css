@@ -446,21 +446,22 @@ ul { list-style: none; }
   /* Home: vertical stack */
   .home-grid {
     columns: 1;
-    column-gap: 0;
-    padding: 0;
+    padding: 0 0 0 0;
   }
   .carousel-item {
-    margin-bottom: 0;
-    border-bottom: 1px solid #eee;
+    margin: 12px 16px;
+    border: none;
+    height: 240px;
   }
   .carousel-item img {
     width: 100%;
-    height: 60vw;
+    height: 100%;
     object-fit: cover;
   }
 
   .carousel-overlay {
     padding: 0 16px;
+    opacity: 1;
   }
   .carousel-overlay .photographer-name { font-size: 16px; }
   .carousel-overlay .project-name { font-size: 13px; }

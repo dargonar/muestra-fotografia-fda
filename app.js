@@ -175,6 +175,8 @@
 
   /* ---- Carousels ---- */
   function startAllCarousels() {
+    // No carousel on mobile
+    if (window.innerWidth < 768) return;
     stopAllCarousels();
     const items = $$('.carousel-item');
     items.forEach((item, i) => {
