@@ -120,7 +120,8 @@
 
       // First photo or placeholder
       const img = document.createElement('img');
-      img.src = p.photos.length > 0 ? p.photos[0].file : '';
+      const urlsrc = p.photos[0].thumb || p.photos[0].file;
+      img.src = p.photos.length > 0 ? urlsrc : '';
       img.alt = p.projectName;
       img.dataset.index = 0;
       img.loading = 'lazy';
@@ -215,7 +216,8 @@
     const img = item.querySelector('img');
     img.style.opacity = '0';
     setTimeout(() => {
-      img.src = p.photos[idx].file;
+      const urlsrc = p.photos[idx].thumb || p.photos[idx].file;
+      img.src = urlsrc;
       img.dataset.index = idx;
       img.style.opacity = '1';
     }, 300);
@@ -278,7 +280,7 @@
       const item = document.createElement('div');
       item.className = 'search-item';
 
-      const coverSrc = p.photos.length > 0 ? p.photos[0].file : '';
+      const coverSrc = p.photos.length > 0 ? (p.photos[0].thumb || p.photos[0].file) : '';
 
       // Preview image (shown on hover)
       if (coverSrc) {
@@ -353,7 +355,7 @@
         const thumb = document.createElement('div');
         thumb.className = 'photo-thumb';
         const img = document.createElement('img');
-        img.src = photo.file;
+        img.src = photo.thumb || photo.file;
         img.alt = photo.caption || '';
         img.loading = 'lazy';
         img.addEventListener('error', function () {
