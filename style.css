@@ -240,19 +240,19 @@ ul { list-style: none; }
    ============================================= */
 .project-header {
   padding: 20px 24px 8px;
-  text-align: center;
+  text-align: left;
 }
 .project-header h1 {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 500;
-  letter-spacing: -0.3px;
+  letter-spacing: 0.5px;
   text-transform: lowercase;
 }
 .project-header .byline {
-  font-size: 15px;
+  font-size: 17px;
   color: var(--fg-muted);
   margin-top: 2px;
-  font-style: italic;
+/*  font-style: italic;*/
   text-transform: lowercase;
 }
 
