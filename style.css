@@ -83,7 +83,7 @@ ul { list-style: none; }
 
 /* --- Fixed wordmark --- */
 .home-wordmark {
-  position: fixed;
+/*  position: fixed;
   top: var(--header-h);
   left: 0;
   right: 0;
@@ -94,7 +94,21 @@ ul { list-style: none; }
   justify-content: center;
   background: transparent;
   mix-blend-mode: multiply;
+  pointer-events: none;*/
+
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  height: 100dvh;
+  justify-content: center;
+  left: 0;
+  mix-blend-mode: multiply;
   pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+
 }
 .home-wordmark a {
   font-size: 72px;
@@ -111,7 +125,8 @@ ul { list-style: none; }
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 320px 8px 8px;
+/*  padding: 320px 8px 8px;*/
+  padding: 8px;
   gap: 4px;
 }
 
