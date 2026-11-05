@@ -113,19 +113,23 @@
       item.className = 'carousel-item';
       item.dataset.slug = p.projectSlug;
 
-      // Scattered sizes: varying width, height, z-index, y-offset
-      const widths = [180, 220, 260, 300, 340];
-      const heights = [160, 200, 240, 280, 320];
-      const offsets = [0, 12, 24, -12, -24];
-      const zs = [5, 5, 20, 5, 20, 5, 20, 20];
-      const w = widths[i % widths.length];
-      const h = heights[i % heights.length];
-      const y = offsets[i % offsets.length];
-      const z = zs[i % zs.length];
-      item.style.width = w + 'px';
-      item.style.height = h + 'px';
-      item.style.zIndex = String(z);
-      if (y) item.style.transform = 'translateY(' + y + 'px)';
+      // Scattered sizes: mix of small, medium, large tiles
+      const configs = [
+        {w:180, h:160, y:0, z:20},
+        {w:280, h:200, y:-16, z:5},
+        {w:220, h:300, y:24, z:20},
+        {w:340, h:240, y:-8, z:5},
+        {w:260, h:180, y:16, z:20},
+        {w:200, h:260, y:-24, z:5},
+        {w:380, h:220, y:0, z:20},
+        {w:240, h:340, y:32, z:5},
+        {w:300, h:200, y:-12, z:20},
+      ];
+      const cfg = configs[i % configs.length];
+      item.style.width = cfg.w + 'px';
+      item.style.height = cfg.h + 'px';
+      item.style.zIndex = String(cfg.z);
+      item.style.transform = 'translateY(' + cfg.y + 'px)';
 
       // First photo or placeholder
       const img = document.createElement('img');
