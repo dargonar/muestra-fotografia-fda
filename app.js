@@ -108,10 +108,11 @@
     if (!data) return;
     homeGrid.innerHTML = '';
 
-    // Grid: calculate columns based on viewport
-    const slotSize = 210; // avg tile width + gap
+    // Grid: calculate columns based on viewport minus padding
+    const slotSize = 210;
+    const padding = Math.round(window.innerWidth * 0.05) * 2; // 5vw each side
     const viewportW = window.innerWidth;
-    const cols = Math.max(2, Math.min(8, Math.floor(viewportW / slotSize)));
+    const cols = Math.max(2, Math.min(8, Math.floor((viewportW - padding - 8) / slotSize)));
     homeGrid.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
 
     // Track occupied cells: "row,col"
