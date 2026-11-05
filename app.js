@@ -119,7 +119,9 @@
     const occupied = new Set();
     let currentRow = 0;
 
-    data.photographers.forEach((p, i) => {
+    data.photographers
+      .sort(() => Math.random() - 0.5)
+      .forEach((p, i) => {
       // Natural sizes with y-offset & z for scattered look
       const configs = [
         {w:180, h:160, y:0, z:20},
