@@ -113,17 +113,21 @@
       item.className = 'carousel-item';
       item.dataset.slug = p.projectSlug;
 
-      // Scattered sizes: mix of small, medium, large tiles
+      // Scattered sizes: random span so only 25-50% fill each row
+      const baseSlot = 220;
+      // Weighted random: more 1x, fewer 3x
+      const spanR = Math.random();
+      const span = spanR < 0.35 ? 1 : spanR < 0.75 ? 2 : 3;
       const configs = [
-        {w:180, h:160, y:0, z:20},
-        {w:280, h:200, y:-16, z:5},
-        {w:220, h:300, y:24, z:20},
-        {w:340, h:240, y:-8, z:5},
-        {w:260, h:180, y:16, z:20},
-        {w:200, h:260, y:-24, z:5},
-        {w:380, h:220, y:0, z:20},
-        {w:240, h:340, y:32, z:5},
-        {w:300, h:200, y:-12, z:20},
+        {w: Math.round(baseSlot * span * 0.85), h:180, y:0, z:20},
+        {w: Math.round(baseSlot * span * 0.85), h:240, y:-20, z:5},
+        {w: Math.round(baseSlot * span * 0.85), h:300, y:20, z:20},
+        {w: Math.round(baseSlot * span * 0.85), h:220, y:-10, z:5},
+        {w: Math.round(baseSlot * span * 0.85), h:260, y:30, z:20},
+        {w: Math.round(baseSlot * span * 0.85), h:200, y:-30, z:5},
+        {w: Math.round(baseSlot * span * 0.85), h:340, y:0, z:20},
+        {w: Math.round(baseSlot * span * 0.85), h:280, y:40, z:5},
+        {w: Math.round(baseSlot * span * 0.85), h:200, y:-15, z:20},
       ];
       const cfg = configs[i % configs.length];
       item.style.width = cfg.w + 'px';
