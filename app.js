@@ -107,14 +107,19 @@
   function renderHome() {
     if (!data) return;
     homeGrid.innerHTML = '';
-    let itemsThisRow = 0;
+
+    // Grid: calculate columns based on viewport
+    const slotSize = 210; // avg tile width + gap
+    const viewportW = window.innerWidth;
+    const cols = Math.max(2, Math.min(8, Math.floor(viewportW / slotSize)));
+    homeGrid.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
+
+    // Track occupied cells: "row,col"
+    const occupied = new Set();
+    let currentRow = 0;
 
     data.photographers.forEach((p, i) => {
-      const item = document.createElement('div');
-      item.className = 'carousel-item';
-      item.dataset.slug = p.projectSlug;
-
-      // Natural sizes (180-300px), with y-offset & z for scattered look
+      // Natural sizes with y-offset & z for scattered look
       const configs = [
         {w:180, h:160, y:0, z:20},
         {w:220, h:200, y:-12, z:5},
@@ -127,6 +132,35 @@
         {w:300, h:280, y:0, z:20},
       ];
       const cfg = configs[i % configs.length];
+
+      // Find a random available column in a spread of rows
+      let col, row;
+      let attempts = 0;
+      while (attempts < 50) {
+        row = currentRow + Math.floor(Math.random() * 3); // 0-2 rows ahead
+        col = Math.floor(Math.random() * cols);
+        const key = `${row},${col}`;
+        if (!occupied.has(key)) {
+          occupied.add(key);
+          break;
+        }
+        attempts++;
+      }
+      if (attempts >= 50) {
+        // Force into new row if too many collisions
+        currentRow++;
+        col = 0;
+        occupied.add(`${currentRow},0`);
+        row = currentRow;
+      }
+      currentRow = Math.max(currentRow, row);
+
+      const item = document.createElement('div');
+      item.className = 'carousel-item';
+      item.dataset.slug = p.projectSlug;
+      item.style.gridColumn = String(col + 1);
+      item.style.gridRow = String(row + 1);
+
       item.style.width = cfg.w + 'px';
       item.style.height = cfg.h + 'px';
       item.style.zIndex = String(cfg.z);
@@ -182,15 +216,6 @@
       });
 
       homeGrid.appendChild(item);
-
-      // Row break: after 1-2 items, force next item to wrap
-      itemsThisRow++;
-      if (itemsThisRow >= 2 || (itemsThisRow === 1 && Math.random() < 0.4)) {
-        const brk = document.createElement('div');
-        brk.className = 'row-break';
-        homeGrid.appendChild(brk);
-        itemsThisRow = 0;
-      }
     });
 
     // Start carousels after render
