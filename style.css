@@ -113,10 +113,10 @@ ul { list-style: none; }
 .home-wordmark a {
   font-size: 72px;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: -3px;
   color: #000;
   text-decoration: none;
-  text-transform: lowercase;
+/*  text-transform: lowercase;*/
 }
 
 /* --- Scattered grid --- */
