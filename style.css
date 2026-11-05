@@ -123,7 +123,7 @@ ul { list-style: none; }
 .home-grid {
   display: grid;
   gap: 4px;
-  padding: 70dvh 8px 8px;
+  padding: 70dvh 5vw 8px;
 }
 
 .carousel-item {
