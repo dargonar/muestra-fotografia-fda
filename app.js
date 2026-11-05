@@ -107,27 +107,24 @@
   function renderHome() {
     if (!data) return;
     homeGrid.innerHTML = '';
+    let itemsThisRow = 0;
 
     data.photographers.forEach((p, i) => {
       const item = document.createElement('div');
       item.className = 'carousel-item';
       item.dataset.slug = p.projectSlug;
 
-      // Scattered sizes: random span so only 25-50% fill each row
-      const baseSlot = 220;
-      // Weighted random: more 1x, fewer 3x
-      const spanR = Math.random();
-      const span = spanR < 0.35 ? 1 : spanR < 0.75 ? 2 : 3;
+      // Natural sizes (180-300px), with y-offset & z for scattered look
       const configs = [
-        {w: Math.round(baseSlot * span * 0.85), h:180, y:0, z:20},
-        {w: Math.round(baseSlot * span * 0.85), h:240, y:-20, z:5},
-        {w: Math.round(baseSlot * span * 0.85), h:300, y:20, z:20},
-        {w: Math.round(baseSlot * span * 0.85), h:220, y:-10, z:5},
-        {w: Math.round(baseSlot * span * 0.85), h:260, y:30, z:20},
-        {w: Math.round(baseSlot * span * 0.85), h:200, y:-30, z:5},
-        {w: Math.round(baseSlot * span * 0.85), h:340, y:0, z:20},
-        {w: Math.round(baseSlot * span * 0.85), h:280, y:40, z:5},
-        {w: Math.round(baseSlot * span * 0.85), h:200, y:-15, z:20},
+        {w:180, h:160, y:0, z:20},
+        {w:220, h:200, y:-12, z:5},
+        {w:260, h:300, y:24, z:20},
+        {w:200, h:240, y:-24, z:5},
+        {w:240, h:220, y:12, z:20},
+        {w:280, h:260, y:-8, z:5},
+        {w:200, h:340, y:32, z:20},
+        {w:260, h:180, y:-16, z:5},
+        {w:300, h:280, y:0, z:20},
       ];
       const cfg = configs[i % configs.length];
       item.style.width = cfg.w + 'px';
@@ -185,6 +182,15 @@
       });
 
       homeGrid.appendChild(item);
+
+      // Row break: after 1-2 items, force next item to wrap
+      itemsThisRow++;
+      if (itemsThisRow >= 2 || (itemsThisRow === 1 && Math.random() < 0.4)) {
+        const brk = document.createElement('div');
+        brk.className = 'row-break';
+        homeGrid.appendChild(brk);
+        itemsThisRow = 0;
+      }
     });
 
     // Start carousels after render
