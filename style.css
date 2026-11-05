@@ -78,17 +78,44 @@ ul { list-style: none; }
 .view.active { display: block; }
 
 /* =============================================
-   HOME — Masonry grid of carousels
+   HOME — Scattered flexbox grid (CA-inspired)
    ============================================= */
+
+/* --- Fixed wordmark --- */
+.home-wordmark {
+  position: fixed;
+  top: var(--header-h);
+  left: 0;
+  right: 0;
+  z-index: 10;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+.home-wordmark a {
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #000;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+/* --- Scattered grid --- */
 .home-grid {
-  columns: 5 260px;
-  column-gap: var(--gutter);
-  padding: var(--gutter);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 320px 8px 8px;
+  gap: 4px;
 }
 
 .carousel-item {
-  break-inside: avoid;
-  margin-bottom: var(--gutter);
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -451,15 +478,20 @@ ul { list-style: none; }
 @media (max-width: 767px) {
   :root { --header-h: 56px; }
 
+  /* Hide wordmark on mobile */
+  .home-wordmark { display: none; }
+
   /* Home: vertical stack */
   .home-grid {
-    columns: 1;
-    padding: 0 0 0 0;
+    display: block;
+    padding: 8px 0;
   }
   .carousel-item {
     margin: 12px 16px;
     border: none;
     height: 240px;
+    width: auto;
+    transform: none;
   }
   .carousel-item img {
     width: 100%;

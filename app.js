@@ -113,10 +113,19 @@
       item.className = 'carousel-item';
       item.dataset.slug = p.projectSlug;
 
-      // Fixed non-uniform heights for masonry
-      const heights = [240, 320, 400, 480, 560];
+      // Scattered sizes: varying width, height, z-index, y-offset
+      const widths = [180, 220, 260, 300, 340];
+      const heights = [160, 200, 240, 280, 320];
+      const offsets = [0, 12, 24, -12, -24];
+      const zs = [5, 5, 20, 5, 20, 5, 20, 20];
+      const w = widths[i % widths.length];
       const h = heights[i % heights.length];
+      const y = offsets[i % offsets.length];
+      const z = zs[i % zs.length];
+      item.style.width = w + 'px';
       item.style.height = h + 'px';
+      item.style.zIndex = String(z);
+      if (y) item.style.transform = 'translateY(' + y + 'px)';
 
       // First photo or placeholder
       const img = document.createElement('img');
