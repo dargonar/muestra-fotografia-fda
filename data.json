@@ -1377,6 +1377,73 @@
           "caption": ""
         }
       ]
+    },
+    {
+      "id": "ro_enlasnubes",
+      "name": "Romina Donato",
+      "projectName": "NO EXENTA",
+      "projectSlug": "no-exenta",
+      "description": "<p>Una obra exenta es aquella que está aislada en el espacio y no se encuentra adherida, pegada ni sujeta a ninguna pared, muro o fondo arquitectónico.</p>",
+      "email": "",
+      "instagram": "https://instagram.com/ro_enlasnubes",
+      "avatar": null,
+      "photos": [
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794593224/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/001_donato-001.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794593224/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/001_donato-001.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794593225/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/002_donato-002.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794593225/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/002_donato-002.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794593226/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/003_donato-003.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794593226/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/003_donato-003.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794593227/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/004_donato-004.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794593227/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/004_donato-004.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794593228/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/005_donato-005.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794593228/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/005_donato-005.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794593229/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/006_donato-006.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794593229/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/006_donato-006.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794593230/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/007_donato-007.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794593230/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/007_donato-007.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794593231/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/008_donato-008.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794593231/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/008_donato-008.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794593233/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/009_donato-009.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794593233/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/009_donato-009.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794593233/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/010_donato-010.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794593233/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/010_donato-010.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794593234/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/011_donato-maqueta-tp003.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794593234/muestra_fda_2026/ro_enlasnubes/fotos_proyecto/011_donato-maqueta-tp003.jpg",
+          "caption": ""
+        }
+      ]
     }
   ],
   "_generated": {
