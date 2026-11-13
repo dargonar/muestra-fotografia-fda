@@ -414,6 +414,15 @@
           this.style.minHeight = '120px';
         });
         thumb.appendChild(img);
+
+        // "Ver galería" overlay on the first photo
+        if (i === 0) {
+          const vg = document.createElement('div');
+          vg.className = 'first-photo-overlay';
+          vg.innerHTML = '<span>ver galería</span>';
+          thumb.appendChild(vg);
+        }
+
         thumb.addEventListener('click', () => {
           navigate('photo/' + slug + '/' + i);
         });
@@ -490,7 +499,9 @@
 
   function showPhotoViewer(slug, idx) {
     const p = data.photographers.find(x => x.projectSlug === slug);
-    if (!p || !p.photos[idx]) { navigate('project/' + slug); return; }
+    if (!p) { navigate('project/' + slug); return; }
+    const isFinSlide = window.innerWidth < 768 && idx === p.photos.length;
+    if (!p.photos[idx] && !isFinSlide) { navigate('project/' + slug); return; }
 
     currentProject = p;
     currentPhotoIndex = idx;
@@ -511,20 +522,35 @@
   function updatePhotoViewer() {
     if (!currentProject) return;
     const photos = currentProject.photos;
-    const photo = photos[currentPhotoIndex];
+    const isMobile = window.innerWidth < 768;
+    const isFinSlide = isMobile && currentPhotoIndex >= photos.length;
 
-    pvImg.src = photo.file;
-    pvImg.alt = photo.caption || '';
-    pvImg.onerror = function () {
-      this.style.background = '#333';
-      this.style.minHeight = '300px';
-      this.style.minWidth = '300px';
-    };
-    pvIndex.textContent = (currentPhotoIndex + 1) + ' / ' + photos.length;
-    pvCaption.textContent = photo.caption || '';
-
-    pvPrev.disabled = currentPhotoIndex === 0;
-    pvNext.disabled = currentPhotoIndex === photos.length - 1;
+    if (isFinSlide) {
+      // Pseudo "fin" slide
+      pvImg.src = '';
+      pvImg.alt = 'fin';
+      pvImg.style.display = 'none';
+      pvIndex.textContent = 'fin';
+      pvCaption.textContent = 'fin de la serie';
+      pvPrev.disabled = false;
+      pvNext.disabled = true;
+      photoViewer.classList.add('fin');
+    } else {
+      const photo = photos[currentPhotoIndex];
+      pvImg.style.display = '';
+      photoViewer.classList.remove('fin');
+      pvImg.src = photo.file;
+      pvImg.alt = photo.caption || '';
+      pvImg.onerror = function () {
+        this.style.background = '#333';
+        this.style.minHeight = '300px';
+        this.style.minWidth = '300px';
+      };
+      pvIndex.textContent = (currentPhotoIndex + 1) + ' / ' + photos.length;
+      pvCaption.textContent = photo.caption || '';
+      pvPrev.disabled = currentPhotoIndex === 0;
+      pvNext.disabled = currentPhotoIndex === photos.length - 1;
+    }
 
     // Reset zoom
     isZoomed = false;
@@ -540,7 +566,10 @@
   }
 
   function nextPhoto() {
-    if (!currentProject || currentPhotoIndex >= currentProject.photos.length - 1) return;
+    if (!currentProject) return;
+    const isMobile = window.innerWidth < 768;
+    const maxIdx = isMobile ? currentProject.photos.length : currentProject.photos.length - 1;
+    if (currentPhotoIndex >= maxIdx) return;
     currentPhotoIndex++;
     updatePhotoViewer();
     window.location.hash = 'photo/' + currentProject.projectSlug + '/' + currentPhotoIndex;

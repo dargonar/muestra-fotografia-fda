@@ -379,6 +379,29 @@ ul { list-style: none; }
 }
 .project-photos .photo-thumb:hover img { transform: scale(1.03); }
 
+/* --- "Ver galería" overlay on first photo --- */
+.first-photo-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.35);
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+.photo-thumb:hover .first-photo-overlay,
+.first-photo-overlay.always { opacity: 1; }
+.first-photo-overlay span {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  border: 1px solid rgba(255,255,255,0.7);
+  padding: 10px 24px;
+  background: rgba(0,0,0,0.4);
+}
+
 /* --- Project text --- */
 .project-text {
   max-width: 640px;
@@ -500,6 +523,15 @@ ul { list-style: none; }
   cursor: zoom-out;
 }
 
+/* --- "Fin" pseudo-slide (mobile) --- */
+#photoViewer.fin .pv-image::after {
+  content: 'fin';
+  font-size: 32px;
+  letter-spacing: 8px;
+  color: rgba(255,255,255,0.6);
+  text-transform: lowercase;
+}
+
 .pv-caption {
   position: absolute;
   left: 24px;
@@ -582,6 +614,9 @@ ul { list-style: none; }
     padding: 20px 16px;
     gap: 12px;
   }
+
+  /* "Ver galería" always visible on mobile (no hover) */
+  .first-photo-overlay { opacity: 1; }
 
   /* Project page */
   .project-header { padding: 16px 16px 4px; }
