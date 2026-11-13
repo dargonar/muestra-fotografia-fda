@@ -9,35 +9,255 @@
       "name": "Pablo Tutino",
       "projectName": "Demasiado pero no suficiente",
       "projectSlug": "demasiado-pero-no-suficiente",
-      "description": "",
+      "description": "<p>Donde todo se convierte en objeto de consumo. Una crítica, un acto de rebeldía, una revolución son absorbidos, desactivados y comercializados.</p><p>¿Y si la verdadera resistencia es crear belleza en un mundo que solo sabe consumir?</p>",
       "email": "",
       "instagram": "https://instagram.com/pablotutino",
-      "avatar": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1793755775/muestra_fda_2026/pablotutino/foto_perfil.png",
+      "avatar": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592730/muestra_fda_2026/pablotutino/foto_perfil.jpg",
       "photos": [
         {
-          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1793755767/muestra_fda_2026/pablotutino/fotos_proyecto/001_01-p1050464.jpg",
-          "caption": "",
-          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1793755767/muestra_fda_2026/pablotutino/fotos_proyecto/001_01-p1050464.jpg"
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592673/muestra_fda_2026/pablotutino/fotos_proyecto/001_pablotutino-000-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592673/muestra_fda_2026/pablotutino/fotos_proyecto/001_pablotutino-000-diptico-hq.jpg",
+          "caption": ""
         },
         {
-          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1793755768/muestra_fda_2026/pablotutino/fotos_proyecto/002_03-img-2858.jpg",
-          "caption": "",
-          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1793755768/muestra_fda_2026/pablotutino/fotos_proyecto/002_03-img-2858.jpg"
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592675/muestra_fda_2026/pablotutino/fotos_proyecto/002_pablotutino-001-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592675/muestra_fda_2026/pablotutino/fotos_proyecto/002_pablotutino-001-diptico-hq.jpg",
+          "caption": ""
         },
         {
-          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1793755770/muestra_fda_2026/pablotutino/fotos_proyecto/003_03-p1050469.jpg",
-          "caption": "",
-          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1793755770/muestra_fda_2026/pablotutino/fotos_proyecto/003_03-p1050469.jpg"
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592677/muestra_fda_2026/pablotutino/fotos_proyecto/003_pablotutino-002-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592677/muestra_fda_2026/pablotutino/fotos_proyecto/003_pablotutino-002-diptico-hq.jpg",
+          "caption": ""
         },
         {
-          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1793755773/muestra_fda_2026/pablotutino/fotos_proyecto/004_03-nena-pablotutino.jpg",
-          "caption": "",
-          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1793755773/muestra_fda_2026/pablotutino/fotos_proyecto/004_03-nena-pablotutino.jpg"
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592679/muestra_fda_2026/pablotutino/fotos_proyecto/004_pablotutino-003-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592679/muestra_fda_2026/pablotutino/fotos_proyecto/004_pablotutino-003-diptico-hq.jpg",
+          "caption": ""
         },
         {
-          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1793755774/muestra_fda_2026/pablotutino/fotos_proyecto/005_04-p1050470.jpg",
-          "caption": "",
-          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1793755774/muestra_fda_2026/pablotutino/fotos_proyecto/005_04-p1050470.jpg"
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592680/muestra_fda_2026/pablotutino/fotos_proyecto/005_pablotutino-004-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592680/muestra_fda_2026/pablotutino/fotos_proyecto/005_pablotutino-004-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592681/muestra_fda_2026/pablotutino/fotos_proyecto/006_pablotutino-005-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592681/muestra_fda_2026/pablotutino/fotos_proyecto/006_pablotutino-005-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592682/muestra_fda_2026/pablotutino/fotos_proyecto/007_pablotutino-006-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592682/muestra_fda_2026/pablotutino/fotos_proyecto/007_pablotutino-006-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592684/muestra_fda_2026/pablotutino/fotos_proyecto/008_pablotutino-007-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592684/muestra_fda_2026/pablotutino/fotos_proyecto/008_pablotutino-007-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592685/muestra_fda_2026/pablotutino/fotos_proyecto/009_pablotutino-008-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592685/muestra_fda_2026/pablotutino/fotos_proyecto/009_pablotutino-008-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592685/muestra_fda_2026/pablotutino/fotos_proyecto/010_pablotutino-009-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592685/muestra_fda_2026/pablotutino/fotos_proyecto/010_pablotutino-009-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592687/muestra_fda_2026/pablotutino/fotos_proyecto/011_pablotutino-010-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592687/muestra_fda_2026/pablotutino/fotos_proyecto/011_pablotutino-010-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592687/muestra_fda_2026/pablotutino/fotos_proyecto/012_pablotutino-011-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592687/muestra_fda_2026/pablotutino/fotos_proyecto/012_pablotutino-011-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592688/muestra_fda_2026/pablotutino/fotos_proyecto/013_pablotutino-012-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592688/muestra_fda_2026/pablotutino/fotos_proyecto/013_pablotutino-012-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592690/muestra_fda_2026/pablotutino/fotos_proyecto/014_pablotutino-013-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592690/muestra_fda_2026/pablotutino/fotos_proyecto/014_pablotutino-013-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592691/muestra_fda_2026/pablotutino/fotos_proyecto/015_pablotutino-014-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592691/muestra_fda_2026/pablotutino/fotos_proyecto/015_pablotutino-014-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592692/muestra_fda_2026/pablotutino/fotos_proyecto/016_pablotutino-015-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592692/muestra_fda_2026/pablotutino/fotos_proyecto/016_pablotutino-015-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592693/muestra_fda_2026/pablotutino/fotos_proyecto/017_pablotutino-016-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592693/muestra_fda_2026/pablotutino/fotos_proyecto/017_pablotutino-016-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592695/muestra_fda_2026/pablotutino/fotos_proyecto/018_pablotutino-017-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592695/muestra_fda_2026/pablotutino/fotos_proyecto/018_pablotutino-017-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592695/muestra_fda_2026/pablotutino/fotos_proyecto/019_pablotutino-018-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592695/muestra_fda_2026/pablotutino/fotos_proyecto/019_pablotutino-018-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592697/muestra_fda_2026/pablotutino/fotos_proyecto/020_pablotutino-019-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592697/muestra_fda_2026/pablotutino/fotos_proyecto/020_pablotutino-019-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592697/muestra_fda_2026/pablotutino/fotos_proyecto/021_pablotutino-020-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592697/muestra_fda_2026/pablotutino/fotos_proyecto/021_pablotutino-020-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592698/muestra_fda_2026/pablotutino/fotos_proyecto/022_pablotutino-021-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592698/muestra_fda_2026/pablotutino/fotos_proyecto/022_pablotutino-021-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592699/muestra_fda_2026/pablotutino/fotos_proyecto/023_pablotutino-022-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592699/muestra_fda_2026/pablotutino/fotos_proyecto/023_pablotutino-022-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592700/muestra_fda_2026/pablotutino/fotos_proyecto/024_pablotutino-023-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592700/muestra_fda_2026/pablotutino/fotos_proyecto/024_pablotutino-023-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592702/muestra_fda_2026/pablotutino/fotos_proyecto/025_pablotutino-024-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592702/muestra_fda_2026/pablotutino/fotos_proyecto/025_pablotutino-024-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592704/muestra_fda_2026/pablotutino/fotos_proyecto/026_pablotutino-025-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592704/muestra_fda_2026/pablotutino/fotos_proyecto/026_pablotutino-025-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592706/muestra_fda_2026/pablotutino/fotos_proyecto/027_pablotutino-026-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592706/muestra_fda_2026/pablotutino/fotos_proyecto/027_pablotutino-026-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592707/muestra_fda_2026/pablotutino/fotos_proyecto/028_pablotutino-027-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592707/muestra_fda_2026/pablotutino/fotos_proyecto/028_pablotutino-027-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592708/muestra_fda_2026/pablotutino/fotos_proyecto/029_pablotutino-028-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592708/muestra_fda_2026/pablotutino/fotos_proyecto/029_pablotutino-028-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592709/muestra_fda_2026/pablotutino/fotos_proyecto/030_pablotutino-029-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592709/muestra_fda_2026/pablotutino/fotos_proyecto/030_pablotutino-029-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592710/muestra_fda_2026/pablotutino/fotos_proyecto/031_pablotutino-030-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592710/muestra_fda_2026/pablotutino/fotos_proyecto/031_pablotutino-030-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592710/muestra_fda_2026/pablotutino/fotos_proyecto/032_pablotutino-031-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592710/muestra_fda_2026/pablotutino/fotos_proyecto/032_pablotutino-031-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592711/muestra_fda_2026/pablotutino/fotos_proyecto/033_pablotutino-032-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592711/muestra_fda_2026/pablotutino/fotos_proyecto/033_pablotutino-032-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592712/muestra_fda_2026/pablotutino/fotos_proyecto/034_pablotutino-033-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592712/muestra_fda_2026/pablotutino/fotos_proyecto/034_pablotutino-033-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592713/muestra_fda_2026/pablotutino/fotos_proyecto/035_pablotutino-034-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592713/muestra_fda_2026/pablotutino/fotos_proyecto/035_pablotutino-034-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592715/muestra_fda_2026/pablotutino/fotos_proyecto/036_pablotutino-035-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592715/muestra_fda_2026/pablotutino/fotos_proyecto/036_pablotutino-035-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592716/muestra_fda_2026/pablotutino/fotos_proyecto/037_pablotutino-036-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592716/muestra_fda_2026/pablotutino/fotos_proyecto/037_pablotutino-036-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592717/muestra_fda_2026/pablotutino/fotos_proyecto/038_pablotutino-037-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592717/muestra_fda_2026/pablotutino/fotos_proyecto/038_pablotutino-037-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592719/muestra_fda_2026/pablotutino/fotos_proyecto/039_pablotutino-038-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592719/muestra_fda_2026/pablotutino/fotos_proyecto/039_pablotutino-038-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592721/muestra_fda_2026/pablotutino/fotos_proyecto/040_pablotutino-039-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592721/muestra_fda_2026/pablotutino/fotos_proyecto/040_pablotutino-039-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592721/muestra_fda_2026/pablotutino/fotos_proyecto/041_pablotutino-040-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592721/muestra_fda_2026/pablotutino/fotos_proyecto/041_pablotutino-040-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592722/muestra_fda_2026/pablotutino/fotos_proyecto/042_pablotutino-041-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592722/muestra_fda_2026/pablotutino/fotos_proyecto/042_pablotutino-041-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592723/muestra_fda_2026/pablotutino/fotos_proyecto/043_pablotutino-042-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592723/muestra_fda_2026/pablotutino/fotos_proyecto/043_pablotutino-042-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592724/muestra_fda_2026/pablotutino/fotos_proyecto/044_pablotutino-043-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592724/muestra_fda_2026/pablotutino/fotos_proyecto/044_pablotutino-043-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592725/muestra_fda_2026/pablotutino/fotos_proyecto/045_pablotutino-044-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592725/muestra_fda_2026/pablotutino/fotos_proyecto/045_pablotutino-044-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592726/muestra_fda_2026/pablotutino/fotos_proyecto/046_pablotutino-045-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592726/muestra_fda_2026/pablotutino/fotos_proyecto/046_pablotutino-045-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592727/muestra_fda_2026/pablotutino/fotos_proyecto/047_pablotutino-046-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592727/muestra_fda_2026/pablotutino/fotos_proyecto/047_pablotutino-046-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592728/muestra_fda_2026/pablotutino/fotos_proyecto/048_pablotutino-047-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592728/muestra_fda_2026/pablotutino/fotos_proyecto/048_pablotutino-047-diptico-hq.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592729/muestra_fda_2026/pablotutino/fotos_proyecto/049_pablotutino-048-diptico-hq.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592729/muestra_fda_2026/pablotutino/fotos_proyecto/049_pablotutino-048-diptico-hq.jpg",
+          "caption": ""
         }
       ]
     },
@@ -878,6 +1098,282 @@
         {
           "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794457556/muestra_fda_2026/lmendezfotografias/fotos_proyecto/018_018-mendez-luciano.jpg",
           "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794457556/muestra_fda_2026/lmendezfotografias/fotos_proyecto/018_018-mendez-luciano.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "id": "mar.lamberti",
+      "name": "Lamberti Mariela",
+      "projectName": "Umbrales",
+      "projectSlug": "umbrales",
+      "description": "<p>¿Cuánto de lo que somos se construye en los momentos dentro de la universidad? Esta muestra es un recorrido visual por esos fragmentos de tiempo donde comenzamos a expresarnos.</p><p>A través de estas fotografías, visualizamos la etapa donde los estudiantes absorbemos el saber dentro de un espacio público. En ellas observamos manos que manipulan la materia prima de la imagen, miradas que buscan encuadres, cuerpos que habitan el aula como un taller de experimentación.</p><p>Cada fotografía es un fragmento de ese proceso: el aprendizaje como experiencia compartida, la universidad como espacio de descubrimiento y el umbral entre lo que fuimos y lo que estamos por devenir.</p>",
+      "email": "",
+      "instagram": "https://instagram.com/mar.lamberti",
+      "avatar": null,
+      "photos": [
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592754/muestra_fda_2026/mar.lamberti/fotos_proyecto/001_lamberti-001.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592754/muestra_fda_2026/mar.lamberti/fotos_proyecto/001_lamberti-001.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592755/muestra_fda_2026/mar.lamberti/fotos_proyecto/002_lamberti-002.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592755/muestra_fda_2026/mar.lamberti/fotos_proyecto/002_lamberti-002.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592755/muestra_fda_2026/mar.lamberti/fotos_proyecto/003_lamberti-003.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592755/muestra_fda_2026/mar.lamberti/fotos_proyecto/003_lamberti-003.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592756/muestra_fda_2026/mar.lamberti/fotos_proyecto/004_lamberti-004.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592756/muestra_fda_2026/mar.lamberti/fotos_proyecto/004_lamberti-004.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592757/muestra_fda_2026/mar.lamberti/fotos_proyecto/005_lamberti-005.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592757/muestra_fda_2026/mar.lamberti/fotos_proyecto/005_lamberti-005.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592760/muestra_fda_2026/mar.lamberti/fotos_proyecto/006_lamberti-006.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592760/muestra_fda_2026/mar.lamberti/fotos_proyecto/006_lamberti-006.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592761/muestra_fda_2026/mar.lamberti/fotos_proyecto/007_lamberti-007.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592761/muestra_fda_2026/mar.lamberti/fotos_proyecto/007_lamberti-007.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592763/muestra_fda_2026/mar.lamberti/fotos_proyecto/008_lamberti-008.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592763/muestra_fda_2026/mar.lamberti/fotos_proyecto/008_lamberti-008.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592764/muestra_fda_2026/mar.lamberti/fotos_proyecto/009_lamberti-009.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592764/muestra_fda_2026/mar.lamberti/fotos_proyecto/009_lamberti-009.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592765/muestra_fda_2026/mar.lamberti/fotos_proyecto/010_lamberti-010.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592765/muestra_fda_2026/mar.lamberti/fotos_proyecto/010_lamberti-010.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "id": "nv.videos.73",
+      "name": "Nicolás Viñas",
+      "projectName": "HOSTIL",
+      "projectSlug": "hostil",
+      "description": "<p>Hay lugares donde la tensión se respira, donde los cuerpos se exponen y donde la violencia deja marcas que no siempre se ven. HOSTIL nace de una mirada que no aparta la vista, que se detiene en esos espacios donde el conflicto se vuelve cotidiano. Cada fotografía es un intento de capturar esa atmósfera densa, esa electricidad en el aire que precede a lo inevitable.</p>",
+      "email": "",
+      "instagram": "https://instagram.com/nv.videos.73",
+      "avatar": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592879/muestra_fda_2026/nv.videos.73/foto_perfil.jpg",
+      "photos": [
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592853/muestra_fda_2026/nv.videos.73/fotos_proyecto/001_20261015-182901.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592853/muestra_fda_2026/nv.videos.73/fotos_proyecto/001_20261015-182901.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592855/muestra_fda_2026/nv.videos.73/fotos_proyecto/002_dji-fly-20261015-170702-073-1792101959715-photo.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592855/muestra_fda_2026/nv.videos.73/fotos_proyecto/002_dji-fly-20261015-170702-073-1792101959715-photo.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592857/muestra_fda_2026/nv.videos.73/fotos_proyecto/003_dji-mimo-20260919-190058-000-1789918736805-photo.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592857/muestra_fda_2026/nv.videos.73/fotos_proyecto/003_dji-mimo-20260919-190058-000-1789918736805-photo.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592858/muestra_fda_2026/nv.videos.73/fotos_proyecto/004_img-1005-001.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592858/muestra_fda_2026/nv.videos.73/fotos_proyecto/004_img-1005-001.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592859/muestra_fda_2026/nv.videos.73/fotos_proyecto/005_img-1012-001.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592859/muestra_fda_2026/nv.videos.73/fotos_proyecto/005_img-1012-001.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592859/muestra_fda_2026/nv.videos.73/fotos_proyecto/006_img-1064.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592859/muestra_fda_2026/nv.videos.73/fotos_proyecto/006_img-1064.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592860/muestra_fda_2026/nv.videos.73/fotos_proyecto/007_img-1086-001.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592860/muestra_fda_2026/nv.videos.73/fotos_proyecto/007_img-1086-001.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592861/muestra_fda_2026/nv.videos.73/fotos_proyecto/008_img-2087.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592861/muestra_fda_2026/nv.videos.73/fotos_proyecto/008_img-2087.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592862/muestra_fda_2026/nv.videos.73/fotos_proyecto/009_img-2241.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592862/muestra_fda_2026/nv.videos.73/fotos_proyecto/009_img-2241.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592863/muestra_fda_2026/nv.videos.73/fotos_proyecto/010_img-303.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592863/muestra_fda_2026/nv.videos.73/fotos_proyecto/010_img-303.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592864/muestra_fda_2026/nv.videos.73/fotos_proyecto/011_img-308.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592864/muestra_fda_2026/nv.videos.73/fotos_proyecto/011_img-308.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592865/muestra_fda_2026/nv.videos.73/fotos_proyecto/012_img-3288-003.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592865/muestra_fda_2026/nv.videos.73/fotos_proyecto/012_img-3288-003.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592866/muestra_fda_2026/nv.videos.73/fotos_proyecto/013_img-331.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592866/muestra_fda_2026/nv.videos.73/fotos_proyecto/013_img-331.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592867/muestra_fda_2026/nv.videos.73/fotos_proyecto/014_img-6778-001.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592867/muestra_fda_2026/nv.videos.73/fotos_proyecto/014_img-6778-001.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592869/muestra_fda_2026/nv.videos.73/fotos_proyecto/015_img-7249.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592869/muestra_fda_2026/nv.videos.73/fotos_proyecto/015_img-7249.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592872/muestra_fda_2026/nv.videos.73/fotos_proyecto/016_img-772.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592872/muestra_fda_2026/nv.videos.73/fotos_proyecto/016_img-772.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592873/muestra_fda_2026/nv.videos.73/fotos_proyecto/017_img-814-001.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592873/muestra_fda_2026/nv.videos.73/fotos_proyecto/017_img-814-001.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592874/muestra_fda_2026/nv.videos.73/fotos_proyecto/018_img-846.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592874/muestra_fda_2026/nv.videos.73/fotos_proyecto/018_img-846.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592875/muestra_fda_2026/nv.videos.73/fotos_proyecto/019_img-912-001.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592875/muestra_fda_2026/nv.videos.73/fotos_proyecto/019_img-912-001.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592875/muestra_fda_2026/nv.videos.73/fotos_proyecto/020_img-925.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592875/muestra_fda_2026/nv.videos.73/fotos_proyecto/020_img-925.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592876/muestra_fda_2026/nv.videos.73/fotos_proyecto/021_img-937-001.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592876/muestra_fda_2026/nv.videos.73/fotos_proyecto/021_img-937-001.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592877/muestra_fda_2026/nv.videos.73/fotos_proyecto/022_img-967.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592877/muestra_fda_2026/nv.videos.73/fotos_proyecto/022_img-967.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592878/muestra_fda_2026/nv.videos.73/fotos_proyecto/023_img-998-001.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592878/muestra_fda_2026/nv.videos.73/fotos_proyecto/023_img-998-001.jpg",
+          "caption": ""
+        }
+      ]
+    },
+    {
+      "id": "pichi.mel.liza",
+      "name": "Lizarriaga M. Estela",
+      "projectName": "",
+      "projectSlug": "lizarriaga-m-estela",
+      "description": "<p>AMB BOIRAT.- con neblina- Este proyecto abraza la añoranza, extiende una invitación a perderse en un espacio difuso para reencontrarse con el hechizo de lo impreciso.</p>",
+      "email": "",
+      "instagram": "https://instagram.com/pichi.mel.liza",
+      "avatar": null,
+      "photos": [
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592913/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/001_001-lizarriaga-m-estela.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592913/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/001_001-lizarriaga-m-estela.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592914/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/002_002-lizarriaga-m-estela.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592914/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/002_002-lizarriaga-m-estela.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592916/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/003_003-lizarriaga-m-estela.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592916/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/003_003-lizarriaga-m-estela.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592917/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/004_004-lizarriaga-m-estela.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592917/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/004_004-lizarriaga-m-estela.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592918/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/005_005-lizarriaga-m-estela.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592918/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/005_005-lizarriaga-m-estela.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592919/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/006_006-lizarriaga-m-estela-004.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592919/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/006_006-lizarriaga-m-estela-004.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592920/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/007_007-lizarriaga-m-estela.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592920/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/007_007-lizarriaga-m-estela.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592920/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/008_008-lizarriaga-m-estela.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592920/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/008_008-lizarriaga-m-estela.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592921/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/009_009-lizarriaga-m-estela.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592921/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/009_009-lizarriaga-m-estela.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592923/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/010_010-lizarriaga-m-estela.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592923/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/010_010-lizarriaga-m-estela.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592925/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/011_011-lizarriaga-m-estela.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592925/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/011_011-lizarriaga-m-estela.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592926/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/012_012-lizarriaga-m-estela.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592926/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/012_012-lizarriaga-m-estela.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592926/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/013_013-lizarriaga-m-estela.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592926/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/013_013-lizarriaga-m-estela.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592927/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/014_014-lizarriaga-m-estela-003.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592927/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/014_014-lizarriaga-m-estela-003.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794592929/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/015_015-lizarriaga-m-estela-022.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794592929/muestra_fda_2026/pichi.mel.liza/fotos_proyecto/015_015-lizarriaga-m-estela-022.jpg",
           "caption": ""
         }
       ]
