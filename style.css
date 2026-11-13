@@ -501,9 +501,9 @@ ul { list-style: none; }
   .carousel-item {
     margin: 12px 16px;
     border: none;
-    height: 240px;
-    width: auto;
-    transform: none;
+    height: 240px !important;
+    width: auto !important;
+    transform: none !important;
     position: static;
   }
   .carousel-item img {
