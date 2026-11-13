@@ -513,11 +513,13 @@ ul { list-style: none; }
   }
 
   .carousel-overlay {
-    padding: 0 16px;
+    padding: 0 24px;
     opacity: 1;
   }
-  .carousel-overlay .photographer-name { font-size: 16px; }
-  .carousel-overlay .project-name { font-size: 13px; }
+  .carousel-overlay .dark-bg { padding: 15px; }
+  .carousel-overlay .photographer-name { font-size: 27px; }
+  .carousel-overlay .project-name { font-size: 21px; }
+  .carousel-overlay .photo-count { font-size: 18px; }
 
   /* No hover dimming on mobile (touch) */
   .home-grid.dimmed .carousel-item:not(.hovered) {
