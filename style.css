@@ -504,7 +504,7 @@ ul { list-style: none; }
     height: 240px !important;
     width: auto !important;
     transform: none !important;
-    position: static;
+    position: relative !important;
   }
   .carousel-item img {
     width: 100%;
