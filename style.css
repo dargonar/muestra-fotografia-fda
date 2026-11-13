@@ -73,6 +73,24 @@ ul { list-style: none; }
 }
 #menuBtn:hover { background: #f0f0f0; }
 
+/* --- Topbar actions (home + menu) --- */
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.homeBtn {
+  width: 40px; height: 40px;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--fg);
+  border-radius: 4px;
+  transition: background var(--transition);
+}
+.homeBtn svg {
+  width: 22px; height: 22px;
+}
+.homeBtn:hover { background: #f0f0f0; }
+
 /* --- Views --- */
 .view { display: none; padding-top: var(--header-h); min-height: 100vh; }
 .view.active { display: block; }
