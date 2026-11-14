@@ -143,31 +143,38 @@ ul { list-style: none; }
   letter-spacing: 1px;
 }
 .home-intro {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 1.85;
+  line-height: 1.55;
   color: #333;
-  max-width: 640px;
+  max-width: 720px;
 }
 
 /* --- Card grid --- */
 .home-grid {
   display: grid;
-  gap: 24px;
+  grid-template-columns: minmax(0, 560px);
+  justify-content: center;
+  gap: 22px;
   padding: 0 5vw 32px;
 }
 
 .carousel-item {
   position: relative;
-  overflow: hidden;
   cursor: pointer;
   background: #f5f5f5;
   max-width: 100%;
 }
+.nyu-front img {
+  width: 100%;
+  height: auto;
+  min-height: 240px;
+  object-fit: cover;
+  display: block;
+}
 
 .nyu-front {
-  position: absolute;
-  inset: 0;
+  position: relative;
 }
 .nyu-front img {
   width: 100%;
@@ -179,16 +186,17 @@ ul { list-style: none; }
 /* Back overlay: light, uppercase title, shown on hover */
 .nyu-back {
   position: absolute;
-  inset: 0;
+  inset: -12px; /* covers the 22px gap around the card */
   display: flex;
   align-items: center;
   justify-content: center;
   background: #f4f2f0;
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.25s ease;
   z-index: 2;
 }
 .carousel-item:hover .nyu-back { opacity: 1; }
+.carousel-item:hover { z-index: 5; }
 
 .nyu-title {
   font-size: 19px;

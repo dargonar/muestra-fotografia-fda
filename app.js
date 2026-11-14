@@ -114,51 +114,17 @@
     if (titleEl && data.site) titleEl.textContent = data.site.heading || '';
     if (introEl && data.site) introEl.textContent = data.site.intro || '';
 
-    // Grid: calculate columns based on viewport minus padding
-    const slotSize = 360; // NYU-style card width
-    const padding = Math.round(window.innerWidth * 0.05) * 2;
-    const viewportW = window.innerWidth;
-    const cols = Math.max(1, Math.min(6, Math.floor((viewportW - padding - 8) / slotSize)));
-    homeGrid.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
 
-    const occupied = new Set();
-    let currentRow = 0;
 
     data.photographers
       .sort(() => Math.random() - 0.5)
       .forEach((p, i) => {
-      // NYU-style card: front image + back overlay with title
-      const heights = [355, 466, 233, 400, 300, 480];
-      const cfg = { h: heights[i % heights.length] };
-
-      // Find a random available column in a spread of rows
-      let col, row;
-      let attempts = 0;
-      while (attempts < 50) {
-        row = currentRow + Math.floor(Math.random() * 3); // 0-2 rows ahead
-        col = Math.floor(Math.random() * cols);
-        const key = `${row},${col}`;
-        if (!occupied.has(key)) {
-          occupied.add(key);
-          break;
-        }
-        attempts++;
-      }
-      if (attempts >= 50) {
-        // Force into new row if too many collisions
-        currentRow++;
-        col = 0;
-        occupied.add(`${currentRow},0`);
-        row = currentRow;
-      }
-      currentRow = Math.max(currentRow, row);
+      // NYU-style card: front image + back overlay with title (natural height)
 
       const item = document.createElement('div');
       item.className = 'carousel-item nyu-card';
       item.dataset.slug = p.projectSlug;
-      item.style.gridColumn = String(col + 1);
-      item.style.gridRow = String(row + 1);
-      item.style.height = cfg.h + 'px';
+      // height set by image aspect ratio
 
       // Front: cover image
       const front = document.createElement('div');
