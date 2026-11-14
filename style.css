@@ -153,10 +153,12 @@ ul { list-style: none; }
 /* --- Card grid --- */
 .home-grid {
   display: grid;
-  grid-template-columns: minmax(0, 560px);
-  justify-content: center;
+  grid-template-columns: 48%;
+  justify-content: start;
+  width: min(1088px, 93vw);
+  margin: 0 auto;
   gap: 22px;
-  padding: 0 5vw 32px;
+  padding: 0 0 32px;
 }
 
 .carousel-item {
