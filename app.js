@@ -446,34 +446,6 @@
       projectContent.appendChild(sec);
     }
 
-    // Section 2: Contact
-    const sec = document.createElement('div');
-    sec.className = 'project-section';
-    sec.innerHTML = '<h2>Contacto</h2>';
-    const card = document.createElement('div');
-    card.className = 'contact-card';
-
-    const avatarImg = document.createElement('img');
-    if (p.avatar) {
-      avatarImg.className = 'contact-avatar';
-      avatarImg.src = p.avatar;
-    } else {
-      avatarImg.className = 'contact-avatar placeholder';
-      avatarImg.textContent = p.name.charAt(0);
-      avatarImg.style.cssText = 'display:flex;align-items:center;justify-content:center;font-size:32px;color:#ccc;background:#f0f0f0;';
-    }
-    card.appendChild(avatarImg);
-
-    const info = document.createElement('div');
-    info.className = 'contact-info';
-    let infoHtml = `<h3>${escapeHtml(p.name)}</h3>`;
-    if (p.email) infoHtml += `<a href="mailto:${escapeHtml(p.email)}">${escapeHtml(p.email)}</a>`;
-    if (p.instagram) infoHtml += `<a href="${escapeHtml(p.instagram)}" target="_blank" rel="noopener">Instagram</a>`;
-    info.innerHTML = infoHtml;
-    card.appendChild(info);
-
-    sec.appendChild(card);
-    projectContent.appendChild(sec);
   }
 
   /* =============================================
