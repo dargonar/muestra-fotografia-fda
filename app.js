@@ -199,8 +199,6 @@
     const cols = viewportW < 640 ? 1 : viewportW < 1280 ? 2 : 3;
     const colW = (containerW - gap * (cols - 1)) / cols;
 
-    console.log(viewportW, cols, colW);
-
     const colHeights = new Array(cols).fill(0);
 
     // Reset to measure natural heights
