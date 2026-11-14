@@ -135,12 +135,12 @@ ul { list-style: none; }
   max-width: 900px;
 }
 .home-title {
-  font-size: 36px;
-  font-weight: 200;
-  line-height: 45px;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 70px;
   color: #222;
   margin-bottom: 40px;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 .home-intro {
   font-size: 13px;
