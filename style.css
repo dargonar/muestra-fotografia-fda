@@ -229,6 +229,20 @@ ul { list-style: none; }
   .nyu-title { font-size: 20px; }
   .nyu-author { font-size: 16px; }
   .nyu-icon { width: 18px; height: 18px; }
+
+  /* Grilla mobile: flujo normal, aire a la derecha */
+  .home-grid {
+    position: static;
+    width: auto;
+    margin: 0 14vw 0 16px;
+    padding: 0 0 32px;
+    height: auto !important;
+  }
+  .carousel-item {
+    position: static !important;
+    width: 100% !important;
+    margin: 0 0 44px;
+  }
 }
 
 /* Touch devices (cualquier ancho): overlay visible sin hover */

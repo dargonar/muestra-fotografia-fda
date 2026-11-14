@@ -199,6 +199,18 @@
     const cols = viewportW < 640 ? 1 : viewportW < 1280 ? 2 : 3;
     const colW = (containerW - gap * (cols - 1)) / cols;
 
+    // Mobile (1 columna): flujo normal, sin posicionamiento absoluto
+    if (cols === 1) {
+      items.forEach(item => {
+        item.style.position = '';
+        item.style.left = '';
+        item.style.top = '';
+        item.style.width = '';
+      });
+      homeGrid.style.height = '';
+      return;
+    }
+
     const colHeights = new Array(cols).fill(0);
 
     // Reset to measure natural heights
