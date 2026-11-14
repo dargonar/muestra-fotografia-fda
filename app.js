@@ -386,12 +386,13 @@
 
     projectContent.innerHTML = '';
 
-    // Header
+    // Header: título grande + autor + bio (estilo home)
     const header = document.createElement('div');
     header.className = 'project-header';
     header.innerHTML = `
       <h1>${escapeHtml(p.projectName)}</h1>
-      <div class="byline">${escapeHtml(p.name)}</div>
+      <div class="project-author">${escapeHtml(p.name)}</div>
+      ${p.description ? `<div class="project-bio">${p.description}</div>` : ''}
     `;
     projectContent.appendChild(header);
 
@@ -432,19 +433,7 @@
       projectContent.appendChild(sec);
     }
 
-    // Section 2: Text
-    if (p.description) {
-      const sec = document.createElement('div');
-      sec.className = 'project-section';
-      sec.innerHTML = '<h2>Texto</h2>';
-      const textDiv = document.createElement('div');
-      textDiv.className = 'project-text';
-      textDiv.innerHTML = p.description;
-      sec.appendChild(textDiv);
-      projectContent.appendChild(sec);
-    }
-
-    // Section 3: Contact
+    // Section 2: Contact
     const sec = document.createElement('div');
     sec.className = 'project-section';
     sec.innerHTML = '<h2>Contacto</h2>';

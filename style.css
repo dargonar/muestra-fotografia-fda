@@ -312,21 +312,31 @@ ul { list-style: none; }
    PROJECT PAGE
    ============================================= */
 .project-header {
-  padding: 20px 24px 8px;
-  text-align: left;
+  padding: 48px 5vw 40px;
 }
 .project-header h1 {
-  font-size: 26px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
+  font-size: 78px;
+  font-weight: 300;
+  line-height: 1.1;
+  color: #222;
+  letter-spacing: 1px;
   text-transform: lowercase;
+  margin-bottom: 12px;
 }
-.project-header .byline {
-  font-size: 17px;
-  color: var(--fg-muted);
-  margin-top: 2px;
-/*  font-style: italic;*/
-  text-transform: lowercase;
+.project-author {
+  font-size: 24px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 32px;
+}
+.project-bio {
+  font-size: 16px;
+  line-height: 1.55;
+  color: #333;
+  max-width: 720px;
+}
+.project-bio p {
+  margin-bottom: 1em;
 }
 
 .project-section {
@@ -587,8 +597,10 @@ ul { list-style: none; }
   .first-photo-overlay { opacity: 1; }
 
   /* Project page */
-  .project-header { padding: 16px 16px 4px; }
-  .project-header h1 { font-size: 18px; }
+  .project-header { padding: 32px 16px 24px; }
+  .project-header h1 { font-size: 32px; }
+  .project-author { font-size: 16px; margin-bottom: 20px; }
+  .project-bio { font-size: 14px; }
   .project-section { padding: 24px 16px; }
 
   .project-photos { columns: 2 140px; }
