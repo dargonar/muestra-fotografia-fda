@@ -132,7 +132,6 @@ ul { list-style: none; }
 /* --- Header: title + intro --- */
 .home-header {
   padding: 48px 5vw 40px;
-  max-width: 900px;
 }
 .home-title {
   font-size: 64px;
@@ -153,7 +152,7 @@ ul { list-style: none; }
 /* --- Card grid --- */
 .home-grid {
   position: relative;
-  width: min(1088px, 93vw);
+  width: 93vw;
   margin: 0 auto;
   padding: 0 0 32px;
   transition: height 0.3s ease;
