@@ -158,16 +158,32 @@
     // Masonry layout: absolute positioning, shortest-column-first (NYU style)
     layoutMasonry(items);
 
-    // Re-layout on image load (heights change) and resize
+    // Re-layout when images load (heights change). Track pending images;
+    // also safety-net timers in case of cached images (complete=true already).
+    let pending = 0;
+    const relayoutWhenSettled = () => {
+      pending--;
+      if (pending <= 0) layoutMasonry(items);
+    };
     items.forEach(item => {
       const img = item.querySelector('img');
-      if (img && !img.complete) img.addEventListener('load', () => layoutMasonry(items));
+      if (!img) return;
+      if (!img.complete) {
+        pending++;
+        img.addEventListener('load', relayoutWhenSettled);
+        img.addEventListener('error', relayoutWhenSettled);
+      }
     });
-    window.addEventListener('resize', () => layoutMasonry(items));
+    setTimeout(() => layoutMasonry(items), 400);
+    setTimeout(() => layoutMasonry(items), 1200);
+    window.addEventListener('load', () => layoutMasonry(items));
   }
 
   /* Masonry: N columns, absolute positioning (like NYU gallery) */
+  let masonryItems = [];
+  window.addEventListener('resize', () => layoutMasonry(masonryItems));
   function layoutMasonry(items) {
+    if (items.length) masonryItems = items;
     if (!items.length) return;
     const gap = 24;
     const containerW = homeGrid.clientWidth;
