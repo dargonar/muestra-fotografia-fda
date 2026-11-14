@@ -108,33 +108,28 @@
     if (!data) return;
     homeGrid.innerHTML = '';
 
+    // Title + intro from config
+    const titleEl = document.getElementById('homeTitle');
+    const introEl = document.getElementById('homeIntro');
+    if (titleEl && data.site) titleEl.textContent = data.site.heading || '';
+    if (introEl && data.site) introEl.textContent = data.site.intro || '';
+
     // Grid: calculate columns based on viewport minus padding
-    const slotSize = 210;
-    const padding = Math.round(window.innerWidth * 0.05) * 2; // 5vw each side
+    const slotSize = 360; // NYU-style card width
+    const padding = Math.round(window.innerWidth * 0.05) * 2;
     const viewportW = window.innerWidth;
-    const cols = Math.max(2, Math.min(8, Math.floor((viewportW - padding - 8) / slotSize)));
+    const cols = Math.max(1, Math.min(6, Math.floor((viewportW - padding - 8) / slotSize)));
     homeGrid.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
 
-    // Track occupied cells: "row,col"
     const occupied = new Set();
     let currentRow = 0;
 
     data.photographers
       .sort(() => Math.random() - 0.5)
       .forEach((p, i) => {
-      // Natural sizes with y-offset & z for scattered look
-      const configs = [
-        {w:180, h:160, y:0, z:20},
-        {w:220, h:200, y:-12, z:5},
-        {w:260, h:300, y:24, z:20},
-        {w:200, h:240, y:-24, z:5},
-        {w:240, h:220, y:12, z:20},
-        {w:280, h:260, y:-8, z:5},
-        {w:200, h:340, y:32, z:20},
-        {w:260, h:180, y:-16, z:5},
-        {w:300, h:280, y:0, z:20},
-      ];
-      const cfg = configs[i % configs.length];
+      // NYU-style card: front image + back overlay with title
+      const heights = [355, 466, 233, 400, 300, 480];
+      const cfg = { h: heights[i % heights.length] };
 
       // Find a random available column in a spread of rows
       let col, row;
@@ -159,63 +154,39 @@
       currentRow = Math.max(currentRow, row);
 
       const item = document.createElement('div');
-      item.className = 'carousel-item';
+      item.className = 'carousel-item nyu-card';
       item.dataset.slug = p.projectSlug;
       item.style.gridColumn = String(col + 1);
       item.style.gridRow = String(row + 1);
-
-      item.style.width = cfg.w + 'px';
       item.style.height = cfg.h + 'px';
-      item.style.zIndex = String(cfg.z);
-      item.style.transform = 'translateY(' + cfg.y + 'px)';
 
-      // First photo or placeholder
+      // Front: cover image
+      const front = document.createElement('div');
+      front.className = 'nyu-front';
       const img = document.createElement('img');
       const urlsrc = p.photos[0].thumb || p.photos[0].file;
       img.src = p.photos.length > 0 ? urlsrc : '';
       img.alt = p.projectName;
-      img.dataset.index = 0;
       img.loading = 'lazy';
       img.addEventListener('error', function () {
         this.style.background = '#eee';
         this.style.minHeight = '200px';
       });
-      item.appendChild(img);
+      front.appendChild(img);
+      item.appendChild(front);
 
-      // Overlay
-      const overlay = document.createElement('div');
-      overlay.className = 'carousel-overlay';
-      overlay.innerHTML = `
-        <div class="dark-bg">
-        <div class="photographer-name">${escapeHtml(p.name)}</div>
-        <div class="project-name">${escapeHtml(p.projectName)}</div>
-        <div class="photo-count">${p.photos.length} fotografías</div>
-        </div>
-      `;
-      item.appendChild(overlay);
+      // Back: light overlay with uppercase title (shown on hover)
+      const back = document.createElement('div');
+      back.className = 'nyu-back';
+      const title = document.createElement('span');
+      title.className = 'nyu-title';
+      title.textContent = p.projectName || p.name;
+      back.appendChild(title);
+      item.appendChild(back);
 
       // Click → project
       item.addEventListener('click', () => {
         navigate('project/' + p.projectSlug);
-      });
-
-      // Hover (desktop)
-      item.addEventListener('mouseenter', () => {
-        const grid = homeGrid;
-        grid.classList.add('dimmed');
-        $$('.carousel-item', grid).forEach(el => el.classList.remove('hovered'));
-        item.classList.add('hovered');
-      });
-
-      item.addEventListener('mouseleave', () => {
-        const grid = homeGrid;
-        grid.classList.remove('dimmed');
-        $$('.carousel-item', grid).forEach(el => el.classList.remove('hovered'));
-      });
-
-      // Touch: tap overlay → navigate, tap image → no action (carousel)
-      item.addEventListener('touchend', (e) => {
-        // Let click handle it
       });
 
       homeGrid.appendChild(item);

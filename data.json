@@ -1,7 +1,9 @@
 {
   "site": {
     "title": "Muestra de Fotografía · FDA",
-    "logo": "assets/fda.jpg"
+    "logo": "assets/fda.jpg",
+    "heading": "Muestra de Fotografía · FDA",
+    "intro": "Proyectos de fin de carrera de la Tecnicatura Universitaria en Fotografía de la Facultad de Arte de la Universidad Nacional de La Plata. Cada fotógrafo presenta una serie que resume su búsqueda visual, conceptual y técnica a lo largo de la formación."
   },
   "photographers": [
     {
