@@ -3,7 +3,13 @@
     "title": "Muestra de Fotografía · FDA",
     "logo": "assets/fda.jpg",
     "heading": "Fotografía UNLP: Exhibición de Proyectos de Alumnxs promoción 2026",
-    "intro": "Exhibición de proyectos fotográficos de fin de carrera de lxs alumnxs de la Tecnicatura Universitaria en Fotografía de la Facultad de Arte de la Universidad Nacional de La Plata. Cada fotógrafx presenta una serie que resume su búsqueda visual, conceptual y técnica a lo largo de la formación."
+    "intro": "Exhibición de proyectos fotográficos de fin de carrera de lxs alumnxs de la Tecnicatura Universitaria en Fotografía de la Facultad de Arte de la Universidad Nacional de La Plata. Cada fotógrafx presenta una serie que resume su búsqueda visual, conceptual y técnica a lo largo de la formación.",
+    "event": {
+      "date": "25 de NOVIEMBRE 18:00 HS",
+      "venue": "AUDITORIO GLEYSER",
+      "place": "Facultad de Artes - Sede Fonseca",
+      "address": "Calle 62 y Diagonal 78"
+    }
   },
   "photographers": [
     {

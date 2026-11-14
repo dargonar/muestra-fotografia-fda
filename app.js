@@ -108,11 +108,20 @@
     if (!data) return;
     homeGrid.innerHTML = '';
 
-    // Title + intro from config
+    // Title + intro + event from config
     const titleEl = document.getElementById('homeTitle');
     const introEl = document.getElementById('homeIntro');
+    const eventEl = document.getElementById('homeEvent');
     if (titleEl && data.site) titleEl.textContent = data.site.heading || '';
     if (introEl && data.site) introEl.textContent = data.site.intro || '';
+    if (eventEl && data.site && data.site.event) {
+      const ev = data.site.event;
+      eventEl.innerHTML =
+        `<div class="he-date">${escapeHtml(ev.date || '')}</div>` +
+        `<div class="he-venue">${escapeHtml(ev.venue || '')}</div>` +
+        `<div class="he-place">${escapeHtml(ev.place || '')}</div>` +
+        `<div class="he-place">${escapeHtml(ev.address || '')}</div>`;
+    }
 
     const items = [];
 

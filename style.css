@@ -143,6 +143,25 @@ ul { list-style: none; }
   letter-spacing: 10px;
   text-wrap: pretty;
 }
+.home-event {
+  margin-bottom: 32px;
+}
+.he-date {
+  font-size: 20px;
+  font-weight: 400;
+  color: #111;
+  margin-bottom: 10px;
+}
+.he-venue {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 4px;
+}
+.he-place {
+  font-size: 14px;
+  color: #777;
+}
 .home-intro {
   font-size: 24px;
   font-weight: 400;
