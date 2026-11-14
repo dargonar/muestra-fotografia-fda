@@ -192,12 +192,14 @@
     });
     setTimeout(() => layoutMasonry(items), 400);
     setTimeout(() => layoutMasonry(items), 1200);
-    window.addEventListener('load', () => layoutMasonry(items));
   }
 
   /* Masonry: N columns, absolute positioning (like NYU gallery) */
   let masonryItems = [];
-  window.addEventListener('resize', () => layoutMasonry(masonryItems));
+  const relayoutMasonry = () => layoutMasonry(masonryItems);
+  window.addEventListener('resize', relayoutMasonry);
+  window.addEventListener('load', relayoutMasonry);
+  new ResizeObserver(relayoutMasonry).observe(document.getElementById('homeGrid'));
   function layoutMasonry(items) {
     if (items.length) masonryItems = items;
     if (!items.length) return;
