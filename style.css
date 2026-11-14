@@ -323,11 +323,23 @@ ul { list-style: none; }
   text-transform: lowercase;
   margin-bottom: 12px;
 }
+.project-author-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+.project-ig {
+  color: #333;
+  display: inline-flex;
+  transition: color var(--transition);
+}
+.project-ig:hover { color: #999; }
+.project-ig svg { width: 28px; height: 28px; display: block; }
 .project-author {
   font-size: 24px;
   font-weight: 400;
   color: #333;
-  margin-bottom: 32px;
 }
 .project-bio {
   font-size: 16px;

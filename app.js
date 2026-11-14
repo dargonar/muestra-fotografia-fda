@@ -389,9 +389,22 @@
     // Header: título grande + autor + bio (estilo home)
     const header = document.createElement('div');
     header.className = 'project-header';
+    // Icono instagram (solo si tiene link real)
+    const igHref = p.instagram && p.instagram !== '#' ? p.instagram : '';
+    const igIcon = igHref ? `
+      <a class="project-ig" href="${escapeHtml(igHref)}" target="_blank" rel="noopener" aria-label="Instagram de ${escapeHtml(p.name)}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5"/>
+          <circle cx="12" cy="12" r="4.5"/>
+          <circle cx="17.5" cy="6.5" r="0.75" fill="currentColor" stroke="none"/>
+        </svg>
+      </a>` : '';
     header.innerHTML = `
       <h1>${escapeHtml(p.projectName)}</h1>
-      <div class="project-author">${escapeHtml(p.name)}</div>
+      <div class="project-author-row">
+        ${igIcon}
+        <span class="project-author">${escapeHtml(p.name)}</span>
+      </div>
       ${p.description ? `<div class="project-bio">${p.description}</div>` : ''}
     `;
     projectContent.appendChild(header);
