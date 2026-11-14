@@ -152,20 +152,18 @@ ul { list-style: none; }
 
 /* --- Card grid --- */
 .home-grid {
-  display: grid;
-  grid-template-columns: 48%;
-  justify-content: start;
+  position: relative;
   width: min(1088px, 93vw);
   margin: 0 auto;
-  gap: 22px;
   padding: 0 0 32px;
+  transition: height 0.3s ease;
 }
 
 .carousel-item {
-  position: relative;
+  position: absolute;
   cursor: pointer;
   background: #f5f5f5;
-  max-width: 100%;
+  transition: left 0.4s ease, top 0.4s ease;
 }
 .nyu-front img {
   width: 100%;

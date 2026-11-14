@@ -114,17 +114,14 @@
     if (titleEl && data.site) titleEl.textContent = data.site.heading || '';
     if (introEl && data.site) introEl.textContent = data.site.intro || '';
 
-
+    const items = [];
 
     data.photographers
-      .sort(() => Math.random() - 0.5)
-      .forEach((p, i) => {
-      // NYU-style card: front image + back overlay with title (natural height)
-
+      .forEach((p) => {
+      // NYU-style card: front image + back overlay with title
       const item = document.createElement('div');
       item.className = 'carousel-item nyu-card';
       item.dataset.slug = p.projectSlug;
-      // height set by image aspect ratio
 
       // Front: cover image
       const front = document.createElement('div');
@@ -150,16 +147,57 @@
       back.appendChild(title);
       item.appendChild(back);
 
-      // Click → project
       item.addEventListener('click', () => {
         navigate('project/' + p.projectSlug);
       });
 
+      items.push(item);
       homeGrid.appendChild(item);
     });
 
-    // Start carousels after render
-    setTimeout(startAllCarousels, 100);
+    // Masonry layout: absolute positioning, shortest-column-first (NYU style)
+    layoutMasonry(items);
+
+    // Re-layout on image load (heights change) and resize
+    items.forEach(item => {
+      const img = item.querySelector('img');
+      if (img && !img.complete) img.addEventListener('load', () => layoutMasonry(items));
+    });
+    window.addEventListener('resize', () => layoutMasonry(items));
+  }
+
+  /* Masonry: N columns, absolute positioning (like NYU gallery) */
+  function layoutMasonry(items) {
+    if (!items.length) return;
+    const gap = 24;
+    const containerW = homeGrid.clientWidth;
+    if (containerW === 0) return;
+    const cols = Math.max(1, Math.min(4, Math.round(containerW / 500)));
+    const colW = (containerW - gap * (cols - 1)) / cols;
+    const colHeights = new Array(cols).fill(0);
+
+    // Reset to measure natural heights
+    items.forEach(item => {
+      item.style.position = 'absolute';
+      item.style.width = colW + 'px';
+      item.style.left = '0px';
+      item.style.top = '0px';
+    });
+
+    items.forEach(item => {
+      // Shortest column
+      let minCol = 0;
+      for (let c = 1; c < cols; c++) {
+        if (colHeights[c] < colHeights[minCol]) minCol = c;
+      }
+      const x = minCol * (colW + gap);
+      const y = colHeights[minCol];
+      item.style.left = x + 'px';
+      item.style.top = y + 'px';
+      colHeights[minCol] += item.offsetHeight + gap;
+    });
+
+    homeGrid.style.height = Math.max(...colHeights) - gap + 'px';
   }
 
   /* ---- Carousels ---- */
