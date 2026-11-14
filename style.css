@@ -131,7 +131,7 @@ ul { list-style: none; }
 
 /* --- Header: title + intro --- */
 .home-header {
-  padding: 48px 5vw 40px;
+  padding: 48px 5vw 25vw;
 }
 .home-title {
   font-size: 64px;
