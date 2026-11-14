@@ -658,9 +658,9 @@ ul { list-style: none; }
 
   /* Project page */
   .project-header { padding: 32px 16px 24px; }
-  .project-header h1 { font-size: 32px; }
-  .project-author { font-size: 16px; margin-bottom: 20px; }
-  .project-bio { font-size: 14px; }
+  .project-header h1 { font-size: 40px; }
+  .project-author { font-size: 20px;  }
+  .project-bio { font-size: 20px; }
   .project-section { padding: 24px 16px; }
 
   .project-photos { columns: 2 140px; }
