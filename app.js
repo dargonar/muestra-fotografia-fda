@@ -138,13 +138,17 @@
       front.appendChild(img);
       item.appendChild(front);
 
-      // Back: light overlay with uppercase title (shown on hover)
+      // Back: light overlay with uppercase title + photographer (shown on hover)
       const back = document.createElement('div');
       back.className = 'nyu-back';
       const title = document.createElement('span');
       title.className = 'nyu-title';
       title.textContent = p.projectName || p.name;
       back.appendChild(title);
+      const author = document.createElement('span');
+      author.className = 'nyu-author';
+      author.textContent = p.name;
+      back.appendChild(author);
       item.appendChild(back);
 
       item.addEventListener('click', () => {

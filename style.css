@@ -198,6 +198,10 @@ ul { list-style: none; }
 .carousel-item:hover .nyu-back { opacity: 1; }
 .carousel-item:hover { z-index: 5; }
 
+.nyu-back {
+  flex-direction: column;
+  gap: 6px;
+}
 .nyu-title {
   font-size: 19px;
   font-weight: 400;
@@ -206,6 +210,13 @@ ul { list-style: none; }
   text-align: center;
   padding: 0 24px;
   line-height: 1.5;
+}
+.nyu-author {
+  font-size: 13px;
+  font-weight: 400;
+  color: #6b6568;
+  text-align: center;
+  padding: 0 24px;
 }
 
 /* Mobile: show title always (no hover) */
