@@ -287,8 +287,8 @@ ul { list-style: none; }
 }
 
 .search-item .search-info { flex: 1; min-width: 0; }
-.search-item .search-info .sn { font-weight: 500; font-size: 15px; text-transform: lowercase; }
-.search-item .search-info .sp { font-size: 13px; color: var(--fg-muted); text-transform: lowercase; }
+.search-item .search-info .sn { font-weight: 500; font-size: 20px; text-transform: lowercase; }
+.search-item .search-info .sp { font-size: 16px; color: var(--fg-muted); text-transform: lowercase; }
 
 /* Hover preview image (beside the item) */
 .search-item .search-preview {

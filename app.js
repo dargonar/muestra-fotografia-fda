@@ -342,10 +342,11 @@
         item.appendChild(preview);
       }
 
-      // Avatar / placeholder
+      // Avatar: foto de perfil del fotógrafo (fallback: cover)
+      const avatarSrc = p.avatar || coverSrc;
       const avatar = document.createElement('img');
       avatar.className = 'search-avatar';
-      avatar.src = coverSrc;
+      avatar.src = avatarSrc;
       avatar.alt = '';
       avatar.loading = 'lazy';
       item.appendChild(avatar);
