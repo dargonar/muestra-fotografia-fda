@@ -138,9 +138,21 @@
       front.appendChild(img);
       item.appendChild(front);
 
-      // Back: light overlay with uppercase title + photographer (shown on hover)
+      // Back: gray overlay, icon + uppercase title + photographer (hover)
       const back = document.createElement('div');
       back.className = 'nyu-back';
+      // Slideshow icon (dos ventanas superpuestas) si hay >1 foto
+      if (p.photos.length > 1) {
+        const icon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        icon.setAttribute('viewBox', '0 0 24 24');
+        icon.setAttribute('class', 'nyu-icon');
+        icon.setAttribute('fill', 'none');
+        icon.setAttribute('stroke', 'currentColor');
+        icon.setAttribute('stroke-width', '1.5');
+        const iconHTML = '<rect x="7" y="3" width="14" height="14" rx="2"/><path d="M3 7v12a2 2 0 002 2h12"/>';
+        icon.innerHTML = iconHTML;
+        back.appendChild(icon);
+      }
       const title = document.createElement('span');
       title.className = 'nyu-title';
       title.textContent = p.projectName || p.name;
@@ -189,7 +201,7 @@
   function layoutMasonry(items) {
     if (items.length) masonryItems = items;
     if (!items.length) return;
-    const gap = 24;
+    const gap = 44;
     const containerW = homeGrid.clientWidth;
     if (containerW === 0) return;
     // Breakpoints (medidos en NYU): 1 col mobile, 2 cols hasta ~2500px, 3 cols arriba
