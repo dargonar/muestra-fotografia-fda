@@ -384,7 +384,12 @@ ul { list-style: none; }
   transition: color var(--transition);
 }
 .project-ig:hover { color: #999; }
-.project-ig svg { width: 28px; height: 28px; display: block; }
+.project-ig svg {
+  width: 24px; height: 24px;
+  display: block;
+  position: relative;
+  top: 2px; /* alineación óptica con texto en minúsculas */
+}
 .project-author {
   font-size: 24px;
   font-weight: 400;
