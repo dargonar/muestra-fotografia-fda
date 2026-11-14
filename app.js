@@ -204,9 +204,9 @@
     const gap = 44;
     const containerW = homeGrid.clientWidth;
     if (containerW === 0) return;
-    // Breakpoints (medidos en NYU): 1 col mobile, 2 cols hasta ~2500px, 3 cols arriba
+    // Breakpoints: <1500 → 1 col, 1500–2350 → 2 cols, >2350 → 3 cols
     const viewportW = window.innerWidth;
-    const cols = viewportW < 900 ? 1 : viewportW < 2500 ? 2 : 3;
+    const cols = viewportW < 1500 ? 1 : viewportW < 2350 ? 2 : 3;
     const colW = (containerW - gap * (cols - 1)) / cols;
     const colHeights = new Array(cols).fill(0);
 
