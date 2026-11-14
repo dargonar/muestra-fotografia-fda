@@ -146,13 +146,20 @@ ul { list-style: none; }
 .home-event {
   margin-bottom: 32px;
 }
-.he-date {
+.he-date, .he-venue, .he-place {
+  font-weight: 400;
+  margin-bottom: 0px;
+  color: #333;
+  font-size: 16px;
+}
+/*
+.he-date{
   font-size: 20px;
   font-weight: 400;
   color: #111;
   margin-bottom: 10px;
 }
-.he-venue {
+ .he-venue {
   font-size: 16px;
   font-weight: 400;
   color: #333;
@@ -162,6 +169,7 @@ ul { list-style: none; }
   font-size: 14px;
   color: #777;
 }
+*/
 .home-intro {
   font-size: 24px;
   font-weight: 400;
@@ -625,7 +633,7 @@ ul { list-style: none; }
     padding: 8px 0;
   }
   .carousel-item {
-    margin: 12px 16px;
+/*    margin: 12px 16px;*/
     border: none;
     /* altura natural: la card toma el tamaño de la foto */
     transform: none !important;
