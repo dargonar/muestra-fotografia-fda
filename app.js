@@ -501,6 +501,20 @@
     // Zoom toggle
     pvImageContainer.addEventListener('click', toggleZoom);
 
+    // Swipe: izquierda = prev, derecha = next (ignora si está zoomed)
+    let touchStartX = null;
+    photoViewer.addEventListener('touchstart', (e) => {
+      if (isZoomed) return;
+      touchStartX = e.touches[0].clientX;
+    }, { passive: true });
+    photoViewer.addEventListener('touchend', (e) => {
+      if (touchStartX === null || isZoomed) return;
+      const dx = e.changedTouches[0].clientX - touchStartX;
+      touchStartX = null;
+      if (Math.abs(dx) < 50) return; // toque normal, no swipe
+      if (dx < 0) nextPhoto(); else prevPhoto();
+    }, { passive: true });
+
     // Keyboard
     document.addEventListener('keydown', (e) => {
       if (!photoViewer.classList.contains('open')) return;
