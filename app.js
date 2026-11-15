@@ -99,6 +99,11 @@
      HOME
      ============================================= */
   function showHome() {
+    // El hash #project/slug reabre el último proyecto al refrescar:
+    // si el hash actual es de proyecto/foto, reemplazar por home.
+    if (window.location.hash.startsWith('#project/') || window.location.hash.startsWith('#photo/')) {
+      history.replaceState(null, '', '#home');
+    }
     showView('view-home');
     stopAllCarousels();
     renderHome();
