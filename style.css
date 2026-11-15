@@ -259,16 +259,16 @@ ul { list-style: none; }
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 70px;
+    height: 100px;
     padding: 0 16px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
     background: linear-gradient(to top, rgba(244,242,240,0.92), rgba(244,242,240,0.75));
   }
   .nyu-title { font-size: 17px; line-height: 1.2; text-align: left; padding: 0; }
-  .nyu-author { font-size: 14px; text-align: right; padding: 0; }
+  .nyu-author { font-size: 14px; text-align: left; padding: 0; }
   .nyu-icon { width: 18px; height: 18px; }
 
   /* Grilla mobile: flujo normal, aire a la derecha */
@@ -293,16 +293,16 @@ ul { list-style: none; }
     top: auto;
     bottom: 0;
     width: 100%;
-    height: 70px;
+    height: 100px;
     padding: 0 16px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
     background: linear-gradient(to top, rgba(244,242,240,0.92), rgba(244,242,240,0.75));
   }
   .nyu-title { font-size: 17px; line-height: 1.2; text-align: left; padding: 0; }
-  .nyu-author { font-size: 14px; text-align: right; padding: 0; }
+  .nyu-author { font-size: 14px; text-align: left; padding: 0; }
 }
 
 /* =============================================
