@@ -267,8 +267,8 @@ ul { list-style: none; }
     gap: 4px;
     background: linear-gradient(to top, rgba(244,242,240,0.92), rgba(244,242,240,0.75));
   }
-  .nyu-title { font-size: 17px; line-height: 1.2; text-align: left; padding: 0; }
-  .nyu-author { font-size: 14px; text-align: left; padding: 0; }
+  .nyu-title { font-size: 20px; line-height: 1.2; text-align: left; padding: 0; }
+  .nyu-author { font-size: 17px; text-align: left; padding: 0; }
   .nyu-icon { width: 18px; height: 18px; }
 
   /* Grilla mobile: flujo normal, aire a la derecha */
@@ -301,8 +301,8 @@ ul { list-style: none; }
     gap: 4px;
     background: linear-gradient(to top, rgba(244,242,240,0.92), rgba(244,242,240,0.75));
   }
-  .nyu-title { font-size: 17px; line-height: 1.2; text-align: left; padding: 0; }
-  .nyu-author { font-size: 14px; text-align: left; padding: 0; }
+  .nyu-title { font-size: 20px; line-height: 1.2; text-align: left; padding: 0; }
+  .nyu-author { font-size: 17px; text-align: left; padding: 0; }
 }
 
 /* =============================================
