@@ -547,6 +547,11 @@
     isZoomed = false;
     pvImageContainer.classList.remove('zoomed');
     document.body.style.overflow = '';
+    // El hash #photo/slug/n reabre la última foto al refrescar:
+    // reemplazar por el proyecto actual (sin disparar navegación).
+    if (currentProject) {
+      history.replaceState(null, '', '#project/' + currentProject.projectSlug);
+    }
   }
 
   function updatePhotoViewer() {
