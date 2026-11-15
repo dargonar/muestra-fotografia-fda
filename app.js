@@ -553,8 +553,9 @@
     pvImageContainer.classList.remove('zoomed');
     document.body.style.overflow = '';
     // El hash #photo/slug/n reabre la última foto al refrescar:
-    // reemplazar por el proyecto actual (sin disparar navegación).
-    if (currentProject) {
+    // reemplazar por el proyecto actual — solo si el hash actual es de foto.
+    // (si el usuario ya navegó a #home o #project, no tocar el hash).
+    if (currentProject && window.location.hash.startsWith('#photo/')) {
       history.replaceState(null, '', '#project/' + currentProject.projectSlug);
     }
   }
