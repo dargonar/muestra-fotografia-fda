@@ -252,9 +252,23 @@ ul { list-style: none; }
     color: #333;
     max-width: 720px;
   }
-  .nyu-back { opacity: 0.7; top: 0; left: 0; width: 100%; height: 100%; padding: 24px 20px 0; }
-  .nyu-title { font-size: 20px; }
-  .nyu-author { font-size: 16px; }
+  /* Dock: texto abajo, barra fija de 70px, no cubre la foto */
+  .nyu-back {
+    opacity: 1;
+    top: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    padding: 0 16px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    background: linear-gradient(to top, rgba(244,242,240,0.92), rgba(244,242,240,0.75));
+  }
+  .nyu-title { font-size: 17px; line-height: 1.2; text-align: left; padding: 0; }
+  .nyu-author { font-size: 14px; text-align: right; padding: 0; }
   .nyu-icon { width: 18px; height: 18px; }
 
   /* Grilla mobile: flujo normal, aire a la derecha */
@@ -274,9 +288,21 @@ ul { list-style: none; }
 
 /* Touch devices (cualquier ancho): overlay visible sin hover */
 @media (hover: none) {
-  .nyu-back { opacity: 0.8; top: 0; left: 0; width: 100%; height: 100%; padding: 24px 20px 0; }
-  .nyu-title { font-size: 20px; }
-  .nyu-author { font-size: 16px; }
+  .nyu-back {
+    opacity: 1;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    padding: 0 16px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    background: linear-gradient(to top, rgba(244,242,240,0.92), rgba(244,242,240,0.75));
+  }
+  .nyu-title { font-size: 17px; line-height: 1.2; text-align: left; padding: 0; }
+  .nyu-author { font-size: 14px; text-align: right; padding: 0; }
 }
 
 /* =============================================
@@ -660,7 +686,37 @@ ul { list-style: none; }
   .project-header { padding: 32px 16px 24px; }
   .project-header h1 { font-size: 40px; }
   .project-author { font-size: 20px;  }
+  /* Bio: cortada a 200px con degrade + botón ampliar */
   .project-bio { font-size: 20px; }
+  .project-bio.clamped {
+    max-height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+  .project-bio.clamped::after {
+    content: '';
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 90px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.98));
+    pointer-events: none;
+  }
+  .project-bio.expanded {
+    max-height: none;
+    overflow: visible;
+  }
+  .bio-expand-btn {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 6px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #333;
+    font-size: 18px;
+    font-family: inherit;
+    color: #333;
+    cursor: pointer;
+  }
   .project-section { padding: 24px 16px; }
 
   .project-photos { columns: 2 140px; }

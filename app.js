@@ -431,6 +431,26 @@
     `;
     projectContent.appendChild(header);
 
+    // Mobile: bio cortada a 200px con degrade + botón "ampliar texto"
+    const bio = header.querySelector('.project-bio');
+    if (bio && window.innerWidth < 768) {
+      requestAnimationFrame(() => {
+        if (bio.scrollHeight > 200) {
+          bio.classList.add('clamped');
+          const btn = document.createElement('button');
+          btn.className = 'bio-expand-btn';
+          btn.type = 'button';
+          btn.textContent = 'ampliar texto';
+          btn.addEventListener('click', () => {
+            bio.classList.remove('clamped');
+            bio.classList.add('expanded');
+            btn.remove();
+          });
+          header.appendChild(btn);
+        }
+      });
+    }
+
     // Section 1: Photos
     if (p.photos.length > 0) {
       const sec = document.createElement('div');
