@@ -424,7 +424,7 @@ ul { list-style: none; }
 .project-bio {
   white-space: pre-line;
   font-size: 22px;
-  line-height: 1.25;
+  line-height: 1.5;
   color: #333;
   max-width: 720px;
 }
