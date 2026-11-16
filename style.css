@@ -445,6 +445,10 @@ ul { list-style: none; }
   cursor: pointer;
   text-decoration: none;
 }
+.fotolibro-link .pdf-icon {
+  vertical-align: -2px;
+  margin-right: 8px;
+}
 
 .project-section {
   padding: 32px 24px;
