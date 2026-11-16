@@ -141,7 +141,7 @@
       const front = document.createElement('div');
       front.className = 'nyu-front';
       const img = document.createElement('img');
-      const urlsrc = p.photos[0].thumb || p.photos[0].file;
+      const urlsrc = p.cover || p.photos[0].thumb || p.photos[0].file;
       img.src = p.photos.length > 0 ? urlsrc : '';
       img.alt = p.projectName;
       img.loading = 'lazy';
@@ -357,7 +357,7 @@
       const item = document.createElement('div');
       item.className = 'search-item';
 
-      const coverSrc = p.photos.length > 0 ? (p.photos[0].thumb || p.photos[0].file) : '';
+      const coverSrc = p.cover || (p.photos.length > 0 ? (p.photos[0].thumb || p.photos[0].file) : '');
 
       // Preview image (shown on hover)
       if (coverSrc) {
