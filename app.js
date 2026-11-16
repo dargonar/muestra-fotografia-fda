@@ -493,6 +493,18 @@
       projectContent.appendChild(sec);
     }
 
+    // Sección: Fotolibro (solo si tiene link)
+    if (p.fotolibro) {
+      const sec = document.createElement('div');
+      sec.className = 'project-section';
+      sec.innerHTML = '<h2>Fotolibro</h2>';
+      const link = document.createElement('a');
+      link.className = 'fotolibro-link';
+      link.href = p.fotolibro;
+      link.textContent = 'descargar fotolibro';
+      sec.appendChild(link);
+      projectContent.appendChild(sec);
+    }
   }
 
   /* =============================================
