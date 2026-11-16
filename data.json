@@ -2364,6 +2364,11 @@
       "avatar": null,
       "photos": [
         {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794865394/muestra_fda_2026/patricia-r-os/fotos_proyecto/000_rios-p-serie-001-001.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794865394/muestra_fda_2026/patricia-r-os/fotos_proyecto/000_rios-p-serie-001-001.jpg",
+          "caption": ""
+        },
+        {
           "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1794861495/muestra_fda_2026/patricia-r-os/fotos_proyecto/001_rios-p-serie-001-002.jpg",
           "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1794861495/muestra_fda_2026/patricia-r-os/fotos_proyecto/001_rios-p-serie-001-002.jpg",
           "caption": ""
