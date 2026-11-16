@@ -433,16 +433,16 @@ ul { list-style: none; }
 
 .fotolibro-link {
   display: inline-block;
-  font-size: 15px;
-  color: var(--fg-muted);
-  text-transform: lowercase;
-  border-bottom: 1px solid var(--fg-light);
-  padding-bottom: 2px;
-  transition: color var(--transition), border-color var(--transition);
-}
-.fotolibro-link:hover {
-  color: var(--fg);
-  border-color: var(--fg);
+  margin-top: 12px;
+  padding: 6px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #333;
+  font-size: 18px;
+  font-family: inherit;
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .project-section {
