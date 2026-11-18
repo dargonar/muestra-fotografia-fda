@@ -254,7 +254,7 @@ background-image: url(assets/bg.png);
 /* Mobile: show title always (no hover) */
 @media (max-width: 767px) {
   .home-header-row { flex-direction: column; gap: 32px; }
-  .home-event { flex: none; width: 100%; }
+  .home-event { flex: none; width: 100%; text-align:center;}
   .home-header { padding: 32px 16px 24px; }
   .home-title { font-size: 26px; line-height: 34px; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px;}
   .home-intro {
