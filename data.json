@@ -3488,6 +3488,53 @@
           "caption": ""
         }
       ]
+    },
+    {
+      "id": "luxia.fotografia",
+      "name": "Lucía Rabasa",
+      "projectName": "Cartografía de hambre",
+      "projectSlug": "cartograf-a-de-hambre",
+      "description": "<p>El cuerpo nunca es un territorio neutral. Desde que nacemos, la piel funciona como una superficie de inscripción de normas. En Cartografía del hambre, la fotografía recorre cómo los discursos externos colonizan nuestros cuerpos, mostrando figuras que emergen de la penumbra no como objetos pasivos de contemplación, sino como presencias que devuelven la mirada y reclaman su propio espacio.</p><p>Un cuerpo nace.</p><p>Un cuerpo empieza a ser invadido por normas.</p><p>Un cuerpo se transforma en un territorio ocupado.</p><p>¿Quién tiene derecho a decidir sobre un territorio que yo habito?</p>",
+      "email": "",
+      "instagram": "https://instagram.com/luxia.fotografia",
+      "avatar": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1795614793/muestra_fda_2026/luxia.fotografia/foto_perfil.jpg",
+      "photos": [
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1795614780/muestra_fda_2026/luxia.fotografia/fotos_proyecto/001_rabasa-001.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1795614780/muestra_fda_2026/luxia.fotografia/fotos_proyecto/001_rabasa-001.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1795614782/muestra_fda_2026/luxia.fotografia/fotos_proyecto/002_rabasa-002.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1795614782/muestra_fda_2026/luxia.fotografia/fotos_proyecto/002_rabasa-002.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1795614786/muestra_fda_2026/luxia.fotografia/fotos_proyecto/003_rabasa-003.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1795614786/muestra_fda_2026/luxia.fotografia/fotos_proyecto/003_rabasa-003.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1795614787/muestra_fda_2026/luxia.fotografia/fotos_proyecto/004_rabasa-004.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1795614787/muestra_fda_2026/luxia.fotografia/fotos_proyecto/004_rabasa-004.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1795614788/muestra_fda_2026/luxia.fotografia/fotos_proyecto/005_rabasa-005.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1795614788/muestra_fda_2026/luxia.fotografia/fotos_proyecto/005_rabasa-005.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1795614789/muestra_fda_2026/luxia.fotografia/fotos_proyecto/006_rabasa-006.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1795614789/muestra_fda_2026/luxia.fotografia/fotos_proyecto/006_rabasa-006.jpg",
+          "caption": ""
+        },
+        {
+          "file": "https://res.cloudinary.com/dhr3jdnve/image/upload/v1795614791/muestra_fda_2026/luxia.fotografia/fotos_proyecto/007_rabasa-007.jpg",
+          "thumb": "https://res.cloudinary.com/dhr3jdnve/image/upload/w_500,c_fill,q_auto/v1795614791/muestra_fda_2026/luxia.fotografia/fotos_proyecto/007_rabasa-007.jpg",
+          "caption": ""
+        }
+      ]
     }
   ],
   "_generated": {
