@@ -357,9 +357,26 @@ background-image: url(assets/bg.png);
 
 .search-header {
   padding: 16px;
+  padding-left: max(16px, calc(50% - 260px));
+  padding-right: max(16px, calc(50% - 260px));
   border-bottom: 1px solid #eee;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
 }
+#searchInput { flex: 1; }
+#searchClose {
+  width: 36px; height: 36px;
+  flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 24px;
+  color: var(--fg);
+  border-radius: 50%;
+  transition: background var(--transition);
+}
+#searchClose:hover { background: #f0f0f0; }
 
 .search-header input {
   width: 100%;

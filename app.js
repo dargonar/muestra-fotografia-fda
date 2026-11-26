@@ -527,6 +527,7 @@
      ============================================= */
   function setupPhotoViewer() {
     pvClose.addEventListener('click', closePhotoViewer);
+    document.getElementById('searchClose').addEventListener('click', closeSearch);
     pvPrev.addEventListener('click', prevPhoto);
     pvNext.addEventListener('click', nextPhoto);
 
