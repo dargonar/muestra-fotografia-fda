@@ -131,7 +131,7 @@
     const items = [];
 
     data.photographers
-      .forEach((p) => {
+      .forEach((p, i) => {
       // NYU-style card: front image + back overlay with title
       const item = document.createElement('div');
       item.className = 'carousel-item nyu-card';

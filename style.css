@@ -242,12 +242,10 @@ background-image: url(assets/bg.png);
   align-items: center;
   justify-content: center;
   background: rgba(0,0,0,0.35);
-  opacity: 0;
+  opacity: 1;
   transition: opacity var(--transition);
   z-index: 3;
-  pointer-events: none;
 }
-.carousel-item:hover .first-card-overlay { opacity: 1; pointer-events: auto; }
 .gallery-btn {
   padding: 10px 24px;
   background: rgba(0,0,0,0.4);
