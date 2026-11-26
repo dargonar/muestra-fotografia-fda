@@ -838,11 +838,3 @@ background-image: url(assets/bg.png);
 }
 .view.active { animation: fadeIn 0.3s ease; }
 
-/* Overlay "ver galeria de fotos" en la primera card: siempre visible en touch */
-@media (max-width: 767px) {
-  .first-card-overlay { opacity: 1; pointer-events: auto; }
-  .gallery-btn { font-size: 13px; padding: 8px 16px; }
-}
-@media (hover: none) {
-  .first-card-overlay { opacity: 1; pointer-events: auto; }
-}

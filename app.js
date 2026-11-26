@@ -165,21 +165,6 @@
       back.appendChild(author);
       item.appendChild(back);
 
-      // Overlay "Ver galeria de fotos" sobre la primera card
-      if (i === 0) {
-        const vg = document.createElement('div');
-        vg.className = 'first-card-overlay';
-        const btn = document.createElement('button');
-        btn.className = 'gallery-btn';
-        btn.textContent = 'ver galeria de fotos';
-        btn.addEventListener('click', (e) => {
-          e.stopPropagation();
-          navigate('photo/' + p.projectSlug + '/0');
-        });
-        vg.appendChild(btn);
-        item.appendChild(vg);
-      }
-
       item.addEventListener('click', () => {
         navigate('project/' + p.projectSlug);
       });
@@ -495,7 +480,7 @@
         if (i === 0) {
           const vg = document.createElement('div');
           vg.className = 'first-photo-overlay';
-          vg.innerHTML = '<span>ver galería</span>';
+          vg.innerHTML = '<span>ver galeria de fotos</span>';
           thumb.appendChild(vg);
         }
 
