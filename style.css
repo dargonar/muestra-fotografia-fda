@@ -545,7 +545,7 @@ background-image: url(assets/bg.png);
   align-items: center;
   justify-content: center;
   background: rgba(0,0,0,0.35);
-  opacity: 0;
+  opacity: 1;
   transition: opacity var(--transition);
 }
 .photo-thumb:hover .first-photo-overlay,
