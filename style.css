@@ -143,7 +143,7 @@ background-image: url(assets/bg.png);
   margin-bottom: 40px;
   text-transform: uppercase;
   letter-spacing: 10px;
-  text-wrap: pretty;
+/*  text-wrap: pretty;*/
 }
 .home-header-row {
   display: flex;
@@ -357,16 +357,14 @@ background-image: url(assets/bg.png);
 
 .search-header {
   padding: 16px;
-  padding-left: max(16px, calc(50% - 260px));
   padding-right: max(16px, calc(50% - 260px));
   border-bottom: 1px solid #eee;
   flex-shrink: 0;
   display: flex;
   align-items: center;
   gap: 12px;
-  position: relative;
 }
-#searchInput { flex: 1; }
+#searchInput { flex: 1; width: 100%; }
 #searchClose {
   width: 36px; height: 36px;
   flex-shrink: 0;
