@@ -117,8 +117,8 @@
     const titleEl = document.getElementById('homeTitle');
     const introEl = document.getElementById('homeIntro');
     const eventEl = document.getElementById('homeEvent');
-    if (titleEl && data.site) titleEl.textContent = data.site.heading || '';
-    if (introEl && data.site) introEl.textContent = data.site.intro || '';
+    if (titleEl && data.site) titleEl.innerHTML = data.site.heading || '';
+    if (introEl && data.site) introEl.innerHTML = data.site.intro || '';
     if (eventEl && data.site && data.site.event) {
       const ev = data.site.event;
       eventEl.innerHTML =
