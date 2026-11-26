@@ -357,7 +357,7 @@ background-image: url(assets/bg.png);
 
 .search-header {
   padding: 16px;
-  padding-right: max(16px, calc(50% - 260px));
+  padding-left: max(16px, calc(50% - 260px));
   border-bottom: 1px solid #eee;
   flex-shrink: 0;
   display: flex;
